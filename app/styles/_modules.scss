@@ -1,5 +1,6 @@
 .post {
   background-color: $colour-content-background;
+  padding-top: 80px;
 }
 
 .container-header, 
@@ -7,11 +8,32 @@
   background-color: $colour-header-background;
 } 
 
+.container-header {
+  position: fixed;
+  z-index: 1000;
+}
+
 .header {
-  height: 120px;
+  height: 80px;
 }
 .footer {
-  height: 240px;
+  height: 210px;
+}
+
+.branding_logo {
+  position: absolute;
+  z-index: 1000;
+  top: -10px;
+  
+  img {
+    width: 100px;
+    height: 120px;
+  }
+}
+.branding_title {
+  float: left;
+  color: #FFFFFF;
+  left: 110px;
 }
 
 .video-embed {
