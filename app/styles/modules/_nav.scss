@@ -1,0 +1,30 @@
+.nav {
+
+}
+
+.nav-main {
+  float: right;
+}
+
+.navbuttons {
+  display: block;
+  list-style: none;
+  color: $colour-font-invert;
+  margin: 0;
+  padding: 0;
+}
+
+.navbutton {
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  &:not(.last-child) {
+    margin-right: 10px;
+  }
+
+  a {
+    color: $colour-font-invert;
+    text-decoration: none;
+  }
+}
