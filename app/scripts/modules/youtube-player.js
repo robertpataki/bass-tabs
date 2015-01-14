@@ -32,7 +32,7 @@ define(
       _this.signals = {};
 
       // Vars
-      _this.script = 'http://youtube.com/iframe_api';
+      _this.script = '//youtube.com/iframe_api';
       _this.videoId = _this.els._$parent.attr('data-url').split('?v=')[1];
 
 /////////////
@@ -47,6 +47,7 @@ define(
       function _onScriptLoaded() {
         var tag = document.createElement('script');
         tag.src = _this.script;
+        tag.id = 'youtubeScript';
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 

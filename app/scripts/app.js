@@ -4,7 +4,8 @@ define(
 		'signals',
 		'fastclick',
 		'tweenmax',
-		'modules/youtube-player'
+		'modules/youtube-player',
+		'modules/disqus'
 	],
 
 	function(
@@ -12,7 +13,8 @@ define(
 		signals,
 		fastclick,
 		TweenMax,
-		YoutubePlayer
+		YoutubePlayer,
+		Disqus
 	) {
 
 		'use strict';
@@ -44,6 +46,10 @@ define(
 
 				if($('#yt-player').length) {
 					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));
+				}
+
+				if($('#disqus_thread').length) {
+					_this.disqus = new Disqus(_this, $('#disqus_thread'));
 				}
 			};
 
