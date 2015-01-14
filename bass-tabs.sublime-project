@@ -5,6 +5,7 @@
 			"folder_exclude_patterns":
 			[
 				".sass-cache",
+				".jekyll",
 				".tmp",
 				"node_modules",
 				"bower_components",

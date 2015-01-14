@@ -1,0 +1,7 @@
+{
+	"name": "bass-tabs",
+	"directories": {
+		"app": "app",
+		"dist": "dist"
+	}
+}
