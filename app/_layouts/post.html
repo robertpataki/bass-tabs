@@ -1,21 +1,23 @@
 ---
 layout: default
 ---
-<article>
-  <div class="block">
+<article class="l-content">
+  <div class="l-block">
     <h2>{{ page.title }}</h2>
     <p class="meta">Tabs added: {{ page.date | date_to_string }}</p>
   </div>
 
-  <div class="block">
+  <div class="l-block">
     <h3>Tabs</h3>
     {{ content }}
   </div>
 
-  <div class="block">
+  <div class="l-block">
     {% if page.youtube %}
       <h3>Play the song</h3>
-      <div class="youtube-embed" id="yt-player" data-url="{{page.youtube}}"></div>
+      <div class="video-embed">
+        <div class="video-placeholder" id="yt-player" data-url="{{page.youtube}}"></div>
+      </div>
     {% endif %}
   </div>
 </article>

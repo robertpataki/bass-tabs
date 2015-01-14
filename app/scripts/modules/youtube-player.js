@@ -15,7 +15,7 @@ define(
 
     function YoutubePlayer(app, el) {
 
-      if(typeof el === 'undefined' || typeof el[0] === 'udnefined') {
+      if(typeof el === 'undefined' || typeof el[0] === 'undefined') {
         return;
       }
 
