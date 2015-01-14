@@ -1,14 +1,19 @@
-<!---
-source: http://tabs.ultimate-guitar.com/b/bonobo/dismantling_frank_btab_1406439id_29072013date.htm
-band: Bonobo
-album: One Offs... Remixes & B-Sides
-title: Dismantling Frank
-tuning: GDAE
---->
+---
+layout:       "post"
+date:         2015-01-14 14:10:39
+categories:   "tabs"
 
-# Bonobo - Dismantling Frank
+title:        "Bonobo - Dismantling Frank"
+artist:       "Bonobo"
+song:         "Dismantling Frank"
+album:        "One Offs... Remixes & B-Sides"
+tuning:       "GDAE"
+youtube:      "//www.youtube.com/watch?v=CT_tPxlWViY"
+source:       "//tabs.ultimate-guitar.com/b/bonobo/dismantling_frank_btab_1406439id_29072013date.htm"
+tags:         
+---
 
-## Verse
+#### Verse
 
 > In the first verse the bass plays 2 of the first line and 2 of the second. Later on it 
 plays 3 of the first and one one of the second.
@@ -18,15 +23,13 @@ G|--------4-----2------------------|
 D|------------4-------4------------|
 A|--2------------------------5-----|
 E|---------------------------------|
-```
-```
 G|------------5/7---------------|
 D|--------4----------4----------|
 A|--2---------------------------|
 E|------------------------------|
 ```
 
-## Chorus
+#### Chorus
 ```
 G|-------------------------|-------------------------|
 D|-------------0-----------|--------------2----------|
@@ -34,7 +37,7 @@ A|-------------------------|--2----------------------|
 E|--3----------------------|-------------------------|
 ```
 
-## Bridge
+#### Bridge
 ```
 G|------------------------|----------------------|
 D|------------------------|----------------------|

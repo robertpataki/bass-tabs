@@ -1,14 +1,19 @@
-<!---
-source: http://tabs.ultimate-guitar.com/b/bonobo/animals_btab_1401034id_04072013date.htm/
-band: Bonobo
-album: Black Sands
-title: Animals
-tuning: GDAE
---->
+---
+layout:       "post"
+date:         2015-01-14 14:25:56
+categories:   "tabs"
 
-# Bonobo - Animals
+title:        "Bonobo - Animals"
+artist:       "Bonobo"
+song:         "Animals"
+album:        "Black Sands"
+tuning:       "GDAE"
+youtube:      "//www.youtube.com/watch?v=aJNkdMB2NZ8"
+source:       "//tabs.ultimate-guitar.com/b/bonobo/animals_btab_1401034id_04072013date.htm/"
+tags:         
+---
 
-## Main riff, starts at 0:43
+#### Main riff, starts at 0:43
 
 ```
 G |---------------------------|
@@ -17,7 +22,7 @@ A |7-9---97-9------10-----9--9|
 E |-------------78------------|
 ```
 
-## The next riff starts at 2:12, working to a breakdown
+#### The next riff starts at 2:12, working to a breakdown
 
 ```
 G |--------------------------------|
@@ -26,7 +31,7 @@ A |7---10----------7---------------|
 E |--------------------7---10--5---|
 ```
 
-## The breakdown starts at 3:27
+#### The breakdown starts at 3:27
 
 ```
 G |--------------------------------|
@@ -35,7 +40,7 @@ A |7---10----------7---------------|
 E |--------------------10--8---7---|
 ```
 
-## The riff below commences at 4:24, which is repeated until the end of the song
+#### The riff below commences at 4:24, which is repeated until the end of the song
 
 ```
 G |---------------------------------------------------|

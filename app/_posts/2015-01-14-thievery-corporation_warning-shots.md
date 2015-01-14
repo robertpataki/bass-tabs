@@ -1,14 +1,19 @@
-<!---
-source: http://tabs.ultimate-guitar.com/t/thievery_corporation/
-band: Thievery Corporation
-album: The Cosmic Game
-title: Warning Shots
-tuning: GDAE
---->
+---
+layout:       "post"
+date:         2015-01-14 14:10:52
+categories:   "tabs"
 
-# Thievery Corporation - Warning Shots
+title:        "Thievery Corporation - Warning Shots"
+artist:       "Thievery Corporation"
+song:         "Warning Shots"
+album:        "The Cosmic Game"
+tuning:       "GDAE"
+youtube:      "//www.youtube.com/watch?v=JDGmcF2FZP4"
+source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/"
+tags:         
+---
 
-## Riff #1
+#### Riff #1
 
 ```
 G |-----------------------------|
@@ -17,7 +22,7 @@ A |-----5-5-5-3-5-5-5-0-3-------|
 E |-----------------------------|
 ```
 
-## Riff #2
+#### Riff #2
 
 ```
 G |-----------------------------|
@@ -26,7 +31,7 @@ A |--5-5----0-3-----------------|
 E |-----------------------------|
 ```
 
-## Riff #3
+#### Riff #3
 
 ```
 G |-----------------------------|-----------------------------|

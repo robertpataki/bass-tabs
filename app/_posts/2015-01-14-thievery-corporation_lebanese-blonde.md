@@ -1,14 +1,19 @@
-<!---
-source: http://www.bigbasstabs.com/thievery_corporation_bass_tabs/lebanese_blonde.html
-band: Thievery Corporation
-album: The Mirror Conspiracy
-title: Lebanese Blonde
-tuning: GDAE
---->
+---
+layout:       "post"
+date:         2015-01-14 14:35:05
+categories:   "tabs"
 
-# Thievery Corporation - Lebanese Blonde
+title:        "Thievery Corporation - Lebanese Blonde"
+artist:       "Thievery Corporation"
+song:         "Lebanese Blonde"
+album:        "The Mirror Conspiracy"
+tuning:       "GDAE"
+youtube:      "//www.youtube.com/watch?v=nq0ESlJhvBM"
+source:       "//www.bigbasstabs.com/thievery_corporation_bass_tabs/lebanese_blonde.html"
+tags:         
+---
 
-## Intro/Chorus riff
+#### Intro/Chorus riff
 ```
 G|——————————————————————|
 D|—————7———————————5—57—|
@@ -16,7 +21,7 @@ A|————————5~—5—5/7——————|
 E|5~—5——————————————————|
 ```
 
-## Verse riff
+#### Verse riff
 
 ```
 G|——————————————————————|
@@ -25,7 +30,7 @@ A|———————5———5—5/7——————|
 E|55————————————————————|
 ```
 
-## Interlude/Solo riff
+#### Interlude/Solo riff
 ```
 G|————————————|
 D|————————————|
@@ -33,7 +38,7 @@ A|————————————|
 E|5——5—5——————|
 ```
 
-## Outro riff
+#### Outro riff
 ```
 G|——————————————————————|
 D|—————————————————5—57—|

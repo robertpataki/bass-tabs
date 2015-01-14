@@ -1,16 +1,21 @@
-<!---
-source: http://tabs.ultimate-guitar.com/t/thievery_corporation/amerimaka_btab.htm
-band: Thievery Corporation
-album: The Cosmic Game
-title: Amerimacka
-tuning: GDAE
---->
+---
+layout:       "post"
+date:         2015-01-14 14:32:10
+categories:   "tabs"
 
-# Thievery Corporation - Amerimacka
+title:        "Thievery Corporation - Amerimacka"
+artist:       "Thievery Corporation"
+song:         "Amerimacka"
+album:        "The Cosmic Game"
+tuning:       "GDAE"
+youtube:      "//www.youtube.com/watch?v=OCD99jMMuh0"
+source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/amerimaka_btab.htm"
+tags:         
+---
 
 > Only two parts two whole song so ill write them out then write the structure of the song for you
 
-## Intro/ Bridge (listen for rythm)
+#### Intro/ Bridge (listen for rythm)
 
 ```
 G |----------------------------------------------------------------------------|
@@ -19,7 +24,7 @@ A |----------------------------------------------------------------------------|
 E |--0-----0-0------0-0-0-0-0--3----3-3----5-5-5-5-5---------------------------|
 ```
 
-## Main riff
+#### Main riff
 ```
 G |---------------------------------------------------------------------------|
 D |---------------------------------------------------------------------------|
