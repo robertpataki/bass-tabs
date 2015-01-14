@@ -29,7 +29,6 @@ require(['App', 'jquery'], function (App, $) {
      * Bootsrapping the application
      */
      $(document).ready(function(){
-        console.log('[Main] - ready!');
         window.App = new App();
      });
 });

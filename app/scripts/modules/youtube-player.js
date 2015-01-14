@@ -33,27 +33,27 @@ define(
 
       // Vars
       _this.script = '//youtube.com/iframe_api';
+      _this.scriptName = 'youtubeScript';
       _this.videoId = _this.els._$parent.attr('data-url').split('?v=')[1];
 
 /////////////
 //////////////// PRIVATE METHODS
 ///
       function _init() {
-        console.log('[YoutubePlayer] - _init(): Video is coming!');
-
-        $.getScript(_this.script, _onScriptLoaded);
+        _loadScript();
       };
 
-      function _onScriptLoaded() {
+      function _loadScript() {
         var tag = document.createElement('script');
+        tag.async = true;
         tag.src = _this.script;
-        tag.id = 'youtubeScript';
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        tag.id = _this.scriptName;
+        
+        (document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0])
+        .appendChild(tag);
 
         window.onYouTubeIframeAPIReady = function() {
-          console.log('[YoutubePlayer] - Youtube API is ready!');
-
           _loadVideo(_this.videoId);
         };
       };
@@ -87,7 +87,7 @@ define(
       };
 
       function _onPlayerReady() {
-        console.log('[YoutubePlayer] - _onPlayerReady(): Youtube API is ready!');
+        // console.log('[YoutubePlayer] - _onPlayerReady(): Youtube API is ready!');
       };
 
       function _onPlayerStateChange(state) {
@@ -96,7 +96,7 @@ define(
         // 2 = PAUSE
         // 3 = SEEK
 
-        console.log('[YoutubePlayer] - _onPlayerStateChange() - state: ', state.data);
+        // console.log('[YoutubePlayer] - _onPlayerStateChange() - state: ', state.data);
       };
 
       // Self initialising

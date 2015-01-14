@@ -39,10 +39,13 @@ define(
 //////////////// PRIVATE METHODS
 ///
 			function _init() {
-				console.log('[App] - _init(): Sizzle is at your service!');
 				// Handle the app resizing
 				_this.els.$window.on('resize', _onWindowResized);
 				setTimeout(function() {_onWindowResized();}, 100);
+
+				$.ajaxSetup({
+				  cache: true
+				});
 
 				if($('#yt-player').length) {
 					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));
