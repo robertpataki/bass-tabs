@@ -10,9 +10,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
         
-        <link rel="shortcut icon" href="/favicon.ico">
-        <!-- build:css(.tmp) /styles/application.css -->
-        <link rel="stylesheet" href="/styles/application.css">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+        <!-- build:css(.tmp) {{ site.baseurl }}/styles/application.css -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/styles/application.css">
         <!-- endbuild -->
     </head>
     <body>
@@ -21,18 +21,18 @@
           <div class="l-container container-header">
             <header class="header l-wrapper">
               <div class="branding">
-                <a href="/">
+                <a href="{{ site.baseurl }}">
                   <div class="branding_logo">
-                    <img src="/images/os-bass-tabs-logo.svg" width="333" height="401">
+                    <img src="{{ site.baseurl }}/images/os-bass-tabs-logo.svg" width="333" height="401">
                   </div>
                   <h1 class="branding_title">OS Bass Tabs</h1>
                 </a>
               </div>
               <nav class="nav nav-main">
                 <ul class="navbuttons navbuttons-main">
-                  <li class="navbutton"><a href="/">Bass Tabs</a></li>
-                  <li class="navbutton"><a href="/about.html">About</a></li>
-                  <li class="navbutton"><a href="/contribute.html">Contribute</a></li>
+                  <li class="navbutton"><a href="{{ site.baseurl }}">Bass Tabs</a></li>
+                  <li class="navbutton"><a href="{{ site.baseurl }}/about.html">About</a></li>
+                  <li class="navbutton"><a href="{{ site.baseurl }}/contribute.html">Contribute</a></li>
                 </ul>
               </nav>
             </header>
@@ -46,8 +46,8 @@
             <footer class="footer l-wrapper"></footer>
           </div>
 
-        <!-- build:js({.tmp}) /scripts/application.js -->
-        <script type="text/javascript" src="/scripts/application.js"></script>
+        <!-- build:js({.tmp}) {{ site.baseurl }}/scripts/application.js -->
+        <script type="text/javascript" src="{{ site.baseurl }}/scripts/application.js"></script>
         <!-- endbuild -->
     </body>
 </html>
