@@ -3,14 +3,16 @@ define(
 		'jquery',
 		'signals',
 		'fastclick',
-		'tweenmax'
+		'tweenmax',
+		'modules/youtube-player'
 	],
 
 	function(
 		$,
 		signals,
 		fastclick,
-		TweenMax
+		TweenMax,
+		YoutubePlayer
 	) {
 
 		'use strict';
@@ -39,6 +41,10 @@ define(
 				// Handle the app resizing
 				_this.els.$window.on('resize', _onWindowResized);
 				setTimeout(function() {_onWindowResized();}, 100);
+
+				if($('#yt-player').length) {
+					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));
+				}
 			};
 
 			/**
