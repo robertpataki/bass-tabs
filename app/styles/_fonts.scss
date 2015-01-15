@@ -1,4 +1,15 @@
 .font-body {
-  font-family: "Helvetica Medium", Arial, Verdana, sans;
-  font-weight: 300;
+  font-family: "Source Sans Pro", Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.font-headline {
+  font-family: "Noto Serif", Georgia, serif;
+  font-weight: 400;
+}
+
+.font-subheadline {
+  font-family: "Source Sans Pro", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 }

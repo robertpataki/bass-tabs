@@ -1,11 +1,8 @@
-.post {
-  background-color: $colour-content-background;
-  padding-top: 80px;
-}
-
-.container-header, 
-.container-footer {
+.container-header {
   background-color: $colour-header-background;
+}
+.container-footer {
+  background-color: $colour-footer-background;
 } 
 
 .container-header {
