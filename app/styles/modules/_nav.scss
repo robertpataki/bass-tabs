@@ -4,6 +4,28 @@
 
 .nav-main {
   float: right;
+
+  .navbutton {
+    padding: 30px 12px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+
+      &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        top: -30px;
+        left: -12px;
+        right: -12px;
+        bottom: -30px;
+      }
+    }
+  }
 }
 
 .navbuttons {

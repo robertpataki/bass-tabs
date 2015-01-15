@@ -2,9 +2,19 @@ body, html {
   width: 100%;
   @extend .font-body;
   background-color: $colour-site-background;
+  color: $colour-font;
 }
 
 * {
   position: relative;
   box-sizing: border-box;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }

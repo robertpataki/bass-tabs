@@ -3,8 +3,10 @@ $colour-site-background: #D8C79C;
 $colour-content-background: #F0F2F3;
 $colour-header-background: #000000;
 $colour-footer-background: #AF2024;
-$colour-horizontal-rule: #AF2024;
+$colour-horizontal-rule: rgba(6, 108, 155, 0.1);
+$colour-font: darken(#066C9B, 20%);
 $colour-font-invert: #FFFFFF;
+$colour-font-highlight: #AF2024;
 
 // Metrics
 $metrics-site-margin: 24px;

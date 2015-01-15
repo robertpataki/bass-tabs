@@ -1,0 +1,33 @@
+.postlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.postlistitem {
+  margin-bottom: 8px;
+  padding: 14px;
+  background: darken($colour-content-background, 10%);
+  color: $colour-font;
+  border-bottom: 3px solid darken($colour-footer-background, 10%);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: darken($colour-footer-background, 10%);
+  }
+
+  a {
+    display: block;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      top: -14px;
+      left: -14px;
+      right: -14px;
+      bottom: -14px;
+    }
+  }
+}
