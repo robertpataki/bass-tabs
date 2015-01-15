@@ -5,16 +5,16 @@
 }
 
 .postlistitem {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
   padding: 14px;
-  background: darken($colour-content-background, 10%);
+  background: $colour-tab-background;
   color: $colour-font;
-  border-bottom: 3px solid darken($colour-footer-background, 10%);
+  border-bottom: 3px solid $colour-tab-border;
 
   h3 {
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken($colour-footer-background, 10%);
+    color: $colour-font;
   }
 
   a {

@@ -6,10 +6,53 @@
   float: right;
 
   .navbutton {
-    padding: 30px 12px;
+    padding: 30px 20px;
+    overflow: hidden;
+    z-index: 1;
 
     &:last-child {
       margin-right: 0;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 6px;
+      background: darken(#35a491, 20%);
+
+      @include transition-property(bottom);
+      @include transition-duration(0.3s);
+      @include animation-timing-function($ease-out-expo);
+    }
+
+    &:after {
+      content: "";
+      z-index: -1;
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 100%;
+      width: 100%;
+      height: 100%;
+      background: #35a491;
+
+      @include transition-property(bottom);
+      @include transition-duration(0.2s);
+      @include animation-timing-function($ease-out-expo);
+    }
+
+    &:hover {
+      &:before {
+        bottom: 0;
+      }
+
+      &:after {
+        bottom: 0;
+      }
     }
 
     a {
@@ -40,10 +83,6 @@
   float: left;
   margin: 0;
   padding: 0;
-
-  &:not(.last-child) {
-    margin-right: 10px;
-  }
 
   a {
     color: $colour-font-invert;

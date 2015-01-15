@@ -19,6 +19,14 @@
   blockquote {
     padding: 0 0 0 6px;
     margin: 0;
-    border-left: 6px solid lighten($colour-horizontal-rule, 30%);
+    border-left: 6px solid $colour-tab-border;
+  }
+
+  .highlight {
+    pre {
+      background: $colour-tab-background;
+      padding: 12px 12px 12px 24px;
+      border-left: 6px solid $colour-tab-border;
+    }
   }
 }

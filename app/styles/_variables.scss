@@ -1,12 +1,17 @@
 // Colours
-$colour-site-background: #D8C79C;
-$colour-content-background: #F0F2F3;
-$colour-header-background: #000000;
-$colour-footer-background: #AF2024;
+$colour-site-background: #e1e3e4;
+$colour-content-background: #FFFFFF;
+$colour-header-background: darken(#066C9B, 20%);
+$colour-footer-background: #35a491;
+
+$colour-tab-background: #e0f3f8;
+$colour-tab-border: #005e7b;
+
 $colour-horizontal-rule: rgba(6, 108, 155, 0.1);
+
 $colour-font: darken(#066C9B, 20%);
 $colour-font-invert: #FFFFFF;
-$colour-font-highlight: #AF2024;
+$colour-font-highlight: #35a491;
 
 // Metrics
 $metrics-site-margin: 24px;
