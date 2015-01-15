@@ -2,16 +2,16 @@
 $colour-site-background: #e1e3e4;
 $colour-content-background: #FFFFFF;
 $colour-header-background: darken(#066C9B, 20%);
-$colour-footer-background: #35a491;
+$colour-footer-background: darken(#066C9B, 20%);
 
-$colour-tab-background: #e0f3f8;
-$colour-tab-border: #005e7b;
+$colour-tab-background: lighten(#ecc55c, 30%);
+$colour-tab-border: #7B005E;
 
 $colour-horizontal-rule: rgba(6, 108, 155, 0.1);
 
 $colour-font: darken(#066C9B, 20%);
 $colour-font-invert: #FFFFFF;
-$colour-font-highlight: #35a491;
+$colour-font-highlight: #7B005E;
 
 // Metrics
 $metrics-site-margin: 24px;

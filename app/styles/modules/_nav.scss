@@ -22,7 +22,7 @@
       bottom: -6px;
       width: 100%;
       height: 6px;
-      background: darken(#35a491, 20%);
+      background: $colour-font-highlight;
 
       @include transition-property(bottom);
       @include transition-duration(0.3s);
@@ -38,7 +38,7 @@
       bottom: 100%;
       width: 100%;
       height: 100%;
-      background: #35a491;
+      background: lighten($colour-font-highlight, 10%);
 
       @include transition-property(bottom);
       @include transition-duration(0.2s);
