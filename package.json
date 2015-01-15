@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "Open source bass tabs",
-  "dependencies": {},
+  "dependencies": {
+    "grunt-text-replace": "^0.4.0"
+  },
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "grunt": "^0.4.5",

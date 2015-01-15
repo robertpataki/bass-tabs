@@ -365,6 +365,23 @@ module.exports = function (grunt) {
             'imagemin',
             'svgmin'
         ]
+    },
+
+    replace: {
+      baseurl: {
+        overwrite: true, 
+        src: ['<%= config.dist %>/{,*/}*.html'],             // source files array (supports minimatch)
+        replacements: [{
+          from: '/styles/',
+          to: '/os-bass-tabs/styles/'
+        }, {
+          from: '/scripts/',
+          to: '/os-bass-tabs/scripts/'
+        }, {
+          from: '/images/',
+          to: '/os-bass-tabs/images/'
+        }]
+      }
     }
   });
 
@@ -432,7 +449,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'replace'
   ]);
 
   grunt.registerTask('default', [
