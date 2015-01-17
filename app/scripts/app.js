@@ -4,6 +4,7 @@ define(
 		'signals',
 		'fastclick',
 		'tweenmax',
+		'modules/menu',
 		'modules/youtube-player',
 		'modules/disqus'
 	],
@@ -13,6 +14,7 @@ define(
 		signals,
 		fastclick,
 		TweenMax,
+		Menu,
 		YoutubePlayer,
 		Disqus
 	) {
@@ -46,6 +48,8 @@ define(
 				$.ajaxSetup({
 				  cache: true
 				});
+
+				_this.menu = new Menu(_this, $('.container-header'));
 
 				if($('#yt-player').length) {
 					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));

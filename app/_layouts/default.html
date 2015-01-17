@@ -6,13 +6,16 @@
     <body>
         <div class="site">
           <div class="l-container container-header">
+            {% include menu.html %}
             <div class="branding">
               <a href="{{ site.baseurl }}/">
                 <h1 class="branding_logo">OS Bass Tabs</h1>
               </a>
+              <div class="menu_button"></div>
             </div>
-            {% include menu.html %}
           </div>
+
+          <div class="menu_overlay"></div>
 
           <section class="post l-wrapper">
             {{ content }}

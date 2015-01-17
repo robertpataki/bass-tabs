@@ -2,6 +2,34 @@
 
 }
 
+.menu_overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  display: none;
+  z-index: 500;
+  opacity: 0;
+}
+
+.menu_button {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  visibility: hidden;
+  display: none;
+  float: right;
+  right: 20px;
+  top: 10px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  pointer-events: auto;
+  background: inline-image("../images/inline/burger.png") 8px 12px no-repeat;
+}
+
 .nav-main {
   float: right;
 
@@ -9,6 +37,7 @@
     padding: 30px 20px;
     overflow: hidden;
     z-index: 1;
+    margin-right: 1px;
 
     &:last-child {
       margin-right: 0;
@@ -45,17 +74,6 @@
       @include animation-timing-function($ease-out-expo);
     }
 
-    &:hover,
-    &.is-active {
-      &:before {
-        bottom: 0;
-      }
-
-      &:after {
-        bottom: 0;
-      }
-    }
-
     a {
       display: block;
 
@@ -88,5 +106,71 @@
   a {
     color: $colour-font-invert;
     text-decoration: none;
+  }
+}
+
+
+// States
+@include media($tablet-breakpoint) {
+  .menu_button {
+    display: block;
+    visibility: visible;
+  }
+
+  .header {
+    height: 243px;
+  }
+
+  .container-header {
+    position: absolute;
+    @include transform(translateY(-243px));
+  }
+
+  .post {
+    padding-top: 64px;
+  }
+
+  .nav-main {
+    float: none;
+    display: block;
+
+    .navbutton {
+      width: 100%;
+      display: block;
+      float: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+
+  .branding {
+    width: 100%;
+    height: 64px;
+    padding-left: 12px;
+    top: 0;
+    position: relative;
+  }
+
+  .branding_logo {
+    top: 6px;
+    width: 191px;
+    height: 51px;
+    @include retina-image("../images/inline/os-bass-tabs-logo", 191px 51px);
+  }
+}
+
+html:not(.is-touch) {
+  .nav-main {
+    .navbutton {
+      &:hover,
+      &.is-active {
+        &:before {
+          bottom: 0;
+        }
+
+        &:after {
+          bottom: 0;
+        }
+      }
+    }
   }
 }

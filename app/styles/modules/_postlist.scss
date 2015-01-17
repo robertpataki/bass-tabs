@@ -33,12 +33,6 @@
       bottom: -14px;
     }
   }
-
-  &:hover {
-    .postlistitem_border {
-      border-width: 12px;
-    }
-  }
 }
 
 .postlistitem_img {
@@ -66,4 +60,15 @@
   @include transition-property(border-width);
   @include transition-duration(0.2s);
   @include animation-timing-function($ease-out-expo);
+}
+
+// States
+html:not(.is-touch) {
+  .postlistitem {
+    &:hover {
+      .postlistitem_border {
+        border-width: 12px;
+      }
+    }
+  }
 }

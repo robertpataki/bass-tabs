@@ -17,17 +17,18 @@
 }
 
 .branding {
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
   padding-left: $metrics-site-margin;
 }
 .branding_logo {
-  position: absolute;
-  z-index: 1000;
   width: 232px;
   height: 62px;
   @include retina-image("../images/inline/os-bass-tabs-logo", 232px 62px);
   overflow: hidden;
   text-indent: -999999px;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .video-embed {

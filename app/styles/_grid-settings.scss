@@ -12,6 +12,6 @@ $visual-grid-opacity: 0.12;
 $max-width: em($metrics-site-maxwidth);
 $grid-columns: $grid-columns-desktop;
 
-$desktop: new-breakpoint(max-width $metrics-desktop-maxwidth $grid-columns-desktop);
-$tablet: new-breakpoint(max-width $metrics-tablet-maxwidth $grid-columns-tablet);
-$mobile: new-breakpoint(max-width $metrics-mobile-maxwidth $grid-columns-mobile);
+$desktop-breakpoint: new-breakpoint(max-width $metrics-desktop-maxwidth $grid-columns-desktop);
+$tablet-breakpoint: new-breakpoint(max-width $metrics-tablet-maxwidth $grid-columns-tablet);
+$mobile-breakpoint: new-breakpoint(max-width $metrics-mobile-maxwidth $grid-columns-mobile);
