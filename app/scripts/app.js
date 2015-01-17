@@ -41,6 +41,10 @@ define(
 //////////////// PRIVATE METHODS
 ///
 			function _init() {
+				if(_supportsTouch()) {
+					_this.els.$html.addClass('is-touch');
+				}
+
 				// Handle the app resizing
 				_this.els.$window.on('resize', _onWindowResized);
 				setTimeout(function() {_onWindowResized();}, 100);
@@ -66,6 +70,11 @@ define(
 			function _onWindowResized() {
 				_this.signals.appResized.dispatch();
 			};
+
+			function _supportsTouch() {
+        return  !!('ontouchstart' in window) ||
+                (!!('onmsgesturechange' in window) && !!window.navigator.maxTouchPoints);
+    	};
 
 			// Self initialising
 			$(_init());
