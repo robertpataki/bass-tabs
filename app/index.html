@@ -6,7 +6,8 @@ title: OS Bass Tabs
 <div id="home" class="l-content">
   <h2>Bass Tabs ({{ paginator.total_posts }} in total)</h2>
   <ul class="posts postlist">
-    {% for post in paginator.posts %}
+    {% assign sorted_posts = (site.posts | sort: 'title') %}
+    {% for post in sorted_posts %}
       <li class="postlistitem">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="postlistitem_img"></div>
