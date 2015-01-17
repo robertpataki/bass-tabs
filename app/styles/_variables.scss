@@ -4,14 +4,18 @@ $colour-content-background: #FFFFFF;
 $colour-header-background: darken(#066C9B, 20%);
 $colour-footer-background: darken(#066C9B, 20%);
 
-$colour-tab-background: lighten(#ecc55c, 30%);
-$colour-tab-border: #7B005E;
+$colour-tab-background: #f4f4f4;
+$colour-tab-border: #147b50;
+
+$colour-tablist-background: #7B005E;
+$colour-tablist-border: darken(#7B005E, 20%);
 
 $colour-horizontal-rule: rgba(6, 108, 155, 0.1);
 
 $colour-font: darken(#066C9B, 20%);
 $colour-font-invert: #FFFFFF;
 $colour-font-highlight: #7B005E;
+$colour-font-tab: #147b50;
 
 // Metrics
 $metrics-site-margin: 24px;

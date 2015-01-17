@@ -5,19 +5,23 @@
 }
 
 .postlistitem {
-  margin-bottom: 14px;
-  padding: 14px;
-  background: $colour-tab-background;
-  color: $colour-font;
-  border-bottom: 3px solid $colour-tab-border;
+  margin: 0 12px 12px 0;
+  color: $colour-font-invert;
+  width: 200px;
+  height: 200px;
+  float: left;
 
   h3 {
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    color: $colour-font-invert;
+    font-size: 110%;
   }
 
   a {
     display: block;
+    width: 100%;
+    height: 100%;
 
     &:before {
       position: absolute;
@@ -29,4 +33,18 @@
       bottom: -14px;
     }
   }
+}
+
+.postlistitem_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  @include retina-image("../images/inline/record-sleeve", 200px 200px);
+}
+
+.postlistitem_content {
+  padding: 12px;
+  position: absolute;
+  bottom: 6px;
 }

@@ -20,8 +20,6 @@ future: true
 show_drafts: true
 
 permalink: none
-paginate: 10
-paginate_path: 'page:num'
 
 # Markdown library
 markdown: redcarpet
@@ -30,3 +28,6 @@ markdown: redcarpet
 pygments: true
 
 baseurl: ""
+
+paginate: 10
+paginate_path: "tabs/page-:num"
