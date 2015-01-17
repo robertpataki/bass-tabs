@@ -45,7 +45,8 @@
       @include animation-timing-function($ease-out-expo);
     }
 
-    &:hover {
+    &:hover,
+    &.is-active {
       &:before {
         bottom: 0;
       }
