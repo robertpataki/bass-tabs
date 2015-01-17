@@ -33,6 +33,12 @@
       bottom: -14px;
     }
   }
+
+  &:hover {
+    .postlistitem_border {
+      border-width: 12px;
+    }
+  }
 }
 
 .postlistitem_img {
@@ -44,7 +50,20 @@
 }
 
 .postlistitem_content {
-  padding: 12px;
+  padding: 0 18px 18px 18px;
   position: absolute;
   bottom: 6px;
+}
+
+.postlistitem_border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  border: 0 solid rgba(255, 255, 255, 0.7);
+  z-index: 2;
+
+  @include transition-property(border-width);
+  @include transition-duration(0.2s);
+  @include animation-timing-function($ease-out-expo);
 }
