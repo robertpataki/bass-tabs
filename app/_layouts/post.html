@@ -23,12 +23,7 @@ layout: default
     </div>
   {% endif %}
 
-  {% if page.source %}
-    <div class="l-block">
-      <h3>We'd like to say thanks</h3>
-      <a href="{{page.source}}" target="_blank">This tab was originally found here</a>
-    </div>
-  {% endif %}
+  {% include related_posts.html %}
 
   <div class="l-block">
     <h3>Have your say!</h3>

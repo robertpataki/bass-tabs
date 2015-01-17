@@ -1,0 +1,30 @@
+{% assign has_related_posts = false %}
+
+{% for post in site.posts %}
+  {% if post.artist == page.artist and post.song != page.song %}
+    {% assign has_related_posts = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_related_posts %}
+<div class="l-block">
+  <h3>More {{ page.artist }} tabs</h3>
+
+  <ul class="posts postlist">
+    {% for post in site.posts %}
+      {% if post.artist == page.artist and post.song != page.song %}
+        <li class="postlistitem">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="postlistitem_img"></div>
+            <div class="postlistitem_content">
+              <h3>{{ post.song }}</h3>
+              <div>{{ post.artist }}</div>
+            </div>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
