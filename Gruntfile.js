@@ -381,6 +381,9 @@ module.exports = function (grunt) {
         }, {
           from: '/images/',
           to: '/os-bass-tabs/images/'
+        }, {
+          from: '/favicon.ico',
+          to: '/os-bass-tabs/favicon.ico'
         }]
       }
     }
