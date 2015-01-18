@@ -5,6 +5,7 @@ define(
 		'fastclick',
 		'tweenmax',
 		'modules/menu',
+		'modules/thumbnails',
 		'modules/youtube-player',
 		'modules/disqus'
 	],
@@ -15,6 +16,7 @@ define(
 		fastclick,
 		TweenMax,
 		Menu,
+		Thumbnails,
 		YoutubePlayer,
 		Disqus
 	) {
@@ -54,6 +56,10 @@ define(
 				});
 
 				_this.menu = new Menu(_this, $('.container-header'));
+
+				if($('.postlist').length) {
+					_this.thumbnails = new Thumbnails(_this, $('.postlist'));
+				}
 
 				if($('#yt-player').length) {
 					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));
