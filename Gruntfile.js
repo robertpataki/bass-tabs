@@ -382,8 +382,11 @@ module.exports = function (grunt) {
           from: '/images/',
           to: '/os-bass-tabs/images/'
         }, {
-          from: '/favicon.ico',
-          to: '/os-bass-tabs/favicon.ico'
+          from: '/favicon',
+          to: '/os-bass-tabs/favicon'
+        }, {
+          from: 'apple-touch-icon.png',
+          to: '/os-bass-tabs/apple-touch-icon.png'
         }]
       }
     }
