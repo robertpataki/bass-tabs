@@ -1,0 +1,64 @@
+$metrics-burger-size: 40px;
+$metrics-burger-linewidth: $metrics-burger-size * 0.8;
+$metrics-burger-lineheight: $metrics-burger-size / 17;
+$transition-duration: 0.3s;
+$colour-burger-button: #FFFFFF;
+
+@mixin line {
+  display: block;
+  position: relative;
+  width: $metrics-burger-linewidth;
+  height: $metrics-burger-lineheight;
+  background: $colour-burger-button;
+  content: "";
+}
+
+.burger_button {
+  cursor: pointer;
+  pointer-events: auto;
+  @include appearance(none);
+  background: none;
+  outline: none;
+  border: none;
+  width: $metrics-burger-size;
+  height: $metrics-burger-size;
+
+  .burger_lines {
+    @include line;
+    left: ($metrics-burger-size - $metrics-burger-linewidth) / 2;
+    position: relative;
+
+    &:before,
+    &:after {
+      @include line;
+      position: absolute;
+      left: 0;
+    }
+    &:before {
+      top: $metrics-burger-lineheight * 3;
+    }
+    &:after {
+      top: $metrics-burger-lineheight * -3;
+    }
+
+    &:before,
+    &:after {
+      @include transition-property(top);
+      @include transition-duration(0.2s);
+      @include animation-timing-function($ease-out-expo);
+    }
+  }
+}
+
+html:not(.is-touch) {
+  .burger_button:hover {
+    .burger_lines {
+      &:before {
+        top: $metrics-burger-lineheight * 2;
+      }
+      &:after {
+        top: $metrics-burger-lineheight * -2;
+      }
+    }
+  }
+}

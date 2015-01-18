@@ -23,7 +23,7 @@ define(
       _this.els.$window = $(window);
       _this.els.$html = $('html');
       _this.els._$parent = el;
-      _this.els.$menuButton = _this.els._$parent.find('.menu_button');
+      _this.els.$menuButton = _this.els._$parent.find('.burger_button');
       _this.els.$menu = _this.els._$parent.find('.nav-main');
       _this.els.$menuOverlay = $('.menu_overlay');
       _this.els.$header = $('.container-header')
