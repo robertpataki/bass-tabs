@@ -36,7 +36,6 @@ define(
 ///
       function _init() {
         _this.els.$menuButton.on('click', _onMenuButtonClick);
-        _this.els.$menuOverlay.on('click', _onMenuButtonClick);
 
         _this.app.signals.appResized.add(_onWindowResized);
       };
