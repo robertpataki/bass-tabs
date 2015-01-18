@@ -74,3 +74,11 @@ html:not(.is-touch) {
     }
   }
 }
+
+@media screen and (min-width: 660px) and (max-width: 840px) {
+  .postlistitem {
+    h3 {
+      font-size: 90%;
+    }
+  }
+}

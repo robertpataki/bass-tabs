@@ -37,15 +37,19 @@ define(
       function _resizeThumbnails() {
         var gridWidth = _this.els._$parent.parent().width();
         var columns = 1;
+        var bottomMargin = '8px';
 
-        if(gridWidth >= 810) {
+        if(gridWidth >= 640) {
             columns = 4;
+            bottomMargin = '0px';
         }
-        else if(gridWidth >= 640) {
+        else if(gridWidth >= 540) {
             columns = 3;
+            bottomMargin = '0px';
         }
-        else if(gridWidth >= 480) {
+        else if(gridWidth >= 400) {
             columns = 2;
+            bottomMargin = '2px';
         }
 
         var thumbnailWidth = Math.floor(gridWidth / columns - 0.5);
@@ -53,12 +57,13 @@ define(
           $('.postlistitem').css({
             'width': thumbnailWidth + 'px',
             'height': (thumbnailWidth * 0.32) + 'px',
-            'margin-bottom': '12px'
+            'margin-bottom': bottomMargin
           });
         } else {
           $('.postlistitem').css({
             'width': thumbnailWidth + 'px',
-            'height': thumbnailWidth + 'px'
+            'height': thumbnailWidth + 'px',
+            'margin-bottom': bottomMargin
           });
         }
 

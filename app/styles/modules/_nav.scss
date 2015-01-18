@@ -79,6 +79,16 @@
         bottom: -30px;
       }
     }
+
+    &.is-active {
+      &:before {
+        bottom: 0;
+      }
+
+      &:after {
+        bottom: 0;
+      }
+    }
   }
 }
 
@@ -153,8 +163,7 @@
 html:not(.is-touch) {
   .nav-main {
     .navbutton {
-      &:hover,
-      &.is-active {
+      &:hover {
         &:before {
           bottom: 0;
         }
