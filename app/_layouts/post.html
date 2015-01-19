@@ -2,11 +2,11 @@
 layout: default
 ---
 <article class="l-content">
-  <div class="l-block">
+  <div class="l-block post_header">
     <h2>{{ page.song }}</h2>
-    <p>By {{ page.artist }}</p>
-    <p>From the album '{{ page.album }}'</p>
-    <p class="meta">Tabs added: {{ page.date | date_to_string }}</p>
+    <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
+    <p class="meta-album"><span class="meta_label">Album:</span> '{{ page.album }}'</p>
+    <p class="meta-date"><span class="meta_label">Tabs added:</span> {{ page.date | date: '%-d %B %Y' }}</p>
   </div>
 
   <div class="l-block">
