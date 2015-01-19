@@ -16,5 +16,13 @@ a:hover,
 a:active,
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: $colour-font;
+
+  @include transition-property(color);
+  @include transition-duration(0.2s);
+  @include animation-timing-function($ease-out-expo);
+}
+
+a:hover {
+  color: $colour-font-tab;
 }

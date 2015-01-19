@@ -11,8 +11,11 @@
 
   h4 {
     @extend .font-subheadline;
-    margin-top: 42px;
     margin-bottom: 0;
+
+    &:not(:nth-child(2)) {
+      margin-top: 42px;
+    }
   }
 
   blockquote {
@@ -27,7 +30,7 @@
 
   .highlight {
     pre {
-      background: $colour-tab-background;
+      background: tint($colour-tab-background, 60%);
       padding: 12px 12px 12px 12px;
       border-left: 6px solid $colour-tab-border;
       color: $colour-font-tab;

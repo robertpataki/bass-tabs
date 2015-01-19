@@ -2,20 +2,20 @@
 layout: default
 ---
 <article class="l-content">
-  <div class="l-block post_header">
+  <div class="l-block-tab post_header">
     <h2>{{ page.song }}</h2>
     <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
     <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
     <p class="meta-date"><span class="meta_label">Tabs added:</span> {{ page.date | date: '%-d %B %Y' }}</p>
   </div>
 
-  <div class="l-block">
+  <div class="l-block-tab">
     <h3>The tabs</h3>
     {{ content }}
   </div>
 
   {% if page.youtube %}
-    <div class="l-block">
+    <div class="l-block-tab">
       <h3>The song</h3>
       <div class="video-embed">
         <div class="video-placeholder" id="yt-player" data-url="{{page.youtube}}"></div>
@@ -25,7 +25,7 @@ layout: default
 
   {% include related_posts.html %}
 
-  <div class="l-block">
+  <div class="l-block-tab">
     <h3>Have your say!</h3>
     <div id="disqus_thread"></div>
   </div>

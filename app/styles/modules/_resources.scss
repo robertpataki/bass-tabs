@@ -1,6 +1,6 @@
 .resources {
   list-style: none;
-  border: 1px solid tint($colour-tab-border, 80%);
+  border: 1px solid tint($colour-font, 40%);
   margin-left: 0;
   padding-left: 0;
 
@@ -8,9 +8,9 @@
     width: 100%;
     margin: 0;
     padding: 12px 18px;
-    
-    &:not(:last-child) {
-      border-bottom: 1px solid tint($colour-tab-border, 95%);
+
+    &:nth-child(2n) {
+      background: tint($colour-tab-background, 60%);
     }
   }
 }
