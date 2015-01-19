@@ -1,0 +1,16 @@
+.resources {
+  list-style: none;
+  border: 1px solid tint($colour-tab-border, 80%);
+  margin-left: 0;
+  padding-left: 0;
+
+  .resource {
+    width: 100%;
+    margin: 0;
+    padding: 12px 18px;
+    
+    &:not(:last-child) {
+      border-bottom: 1px solid tint($colour-tab-border, 95%);
+    }
+  }
+}

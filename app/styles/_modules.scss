@@ -48,19 +48,3 @@
     height: 100%;
   }
 }
-
-.meta {
-  margin: 0 0 4px 0;
-}
-.meta-artist {
-  @extend .meta;
-}
-.meta-album {
-  @extend .meta; 
-}
-.meta-date {
-  @extend .meta;
-}
-.meta_label {
-  font-weight: bold;
-}

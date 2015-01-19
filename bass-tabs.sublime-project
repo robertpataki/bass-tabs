@@ -8,6 +8,7 @@
 				".jekyll",
 				".tmp",
 				"node_modules",
+				"bower_components",
 				"dist"
 			],
 			"follow_symlinks": true,

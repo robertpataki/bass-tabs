@@ -14,9 +14,7 @@
   @include span-columns(10);
   @include shift(1);
   @include clearfix;
-}
 
-.l-block {
   &:not(:first-child) {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -27,4 +25,8 @@
     border-top: none;
     margin-top: 0;
   }
+}
+
+.l-section {
+  margin-top: 40px;
 }
