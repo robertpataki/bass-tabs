@@ -26,6 +26,7 @@
 .branding_logo {
   width: 232px;
   height: 62px;
+  display: inline-block;
   @include retina-image("../images/inline/os-bass-tabs-logo", 232px 62px);
   overflow: hidden;
   text-indent: -999999px;

@@ -46,9 +46,9 @@ define(
         if(_this.els._$parent.hasClass('is-open')) {
           _this.els.$menuOverlay.one('click', _onMenuButtonClick);
           
-          TweenMax.to(_this.els.$header, 0.6, {y: 0, ease: Strong.easeInOut});
+          TweenMax.to(_this.els.$header, 0.4, {y: 0, ease: Strong.easeInOut});
 
-          TweenMax.to(_this.els.$menuOverlay, 0.5, {opacity: 1, ease: Strong.easeOut, delay: 0.2,
+          TweenMax.to(_this.els.$menuOverlay, 0.3, {opacity: 1, ease: Strong.easeOut, delay: 0.4,
             onStart: function() {
               _this.els.$menuOverlay.css({
                 'visibility': 'visible',
