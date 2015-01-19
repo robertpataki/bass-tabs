@@ -389,6 +389,14 @@ module.exports = function (grunt) {
           to: '/os-bass-tabs/apple-touch-icon.png'
         }]
       }
+    },
+
+    // Changelog generator
+    changelog: {
+      options: {
+        dest: 'CHANGELOG.md',
+        versionFile: 'package.json'
+      }
     }
   });
 
