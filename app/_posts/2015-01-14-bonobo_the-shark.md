@@ -7,6 +7,7 @@ title:        "Bonobo - The Shark"
 artist:       "Bonobo"
 song:         "The Shark"
 album:        "One Offs... Remixes & B-Sides"
+year:         2002
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=oynvIzi2HUs"
 source:       "http://www.tabcrawler.com/1739353/bonobo/the-shark-ver-1"

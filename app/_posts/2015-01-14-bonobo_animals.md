@@ -7,6 +7,7 @@ title:        "Bonobo - Animals"
 artist:       "Bonobo"
 song:         "Animals"
 album:        "Black Sands"
+year:         2010
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=aJNkdMB2NZ8"
 source:       "//tabs.ultimate-guitar.com/b/bonobo/animals_btab_1401034id_04072013date.htm/"

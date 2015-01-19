@@ -7,6 +7,7 @@ title:        "Thievery Corporation - Warning Shots"
 artist:       "Thievery Corporation"
 song:         "Warning Shots"
 album:        "The Cosmic Game"
+year:         2005
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=JDGmcF2FZP4"
 source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/"

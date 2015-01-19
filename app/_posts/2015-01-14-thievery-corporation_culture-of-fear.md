@@ -7,6 +7,7 @@ title:        "Thievery Corporation - Culture Of Fear"
 artist:       "Thievery Corporation"
 song:         "Culture Of Fear"
 album:        "Culture Of Fear"
+year:         2011
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=GWvqkDvv4mE"
 source:       

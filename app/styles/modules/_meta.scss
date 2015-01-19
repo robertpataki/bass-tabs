@@ -1,15 +1,29 @@
 .meta {
   margin: 0 0 4px 0;
 }
-.meta-artist {
-  @extend .meta;
-}
-.meta-album {
+.meta-artist,
+.meta-album,
+.meta-year,
+.meta-date {
   @extend .meta; 
 }
+
 .meta-date {
-  @extend .meta;
+  position: absolute;
+  right: 12px;
+  top: 0;
 }
+
 .meta_label {
-  font-weight: bold;
+  opacity: 0.6;
+}
+
+@include media($tablet-breakpoint) {
+  .meta-date {
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding-left: 12px;
+  }
 }

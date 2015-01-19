@@ -4,9 +4,12 @@ layout: default
 <article class="l-content">
   <div class="l-block-tab post_header">
     <h2>{{ page.song }}</h2>
-    <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
-    <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
-    <p class="meta-date"><span class="meta_label">Tabs added:</span> {{ page.date | date: '%-d %B %Y' }}</p>
+    <div class="metadata">
+      <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
+      <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
+      <p class="meta-year"><span class="meta_label">Year:</span> {{ page.year }}</p>
+      <p class="meta-date"><span class="meta_label">Tabs added:</span> {{ page.date | date: '%-d %B %Y' }}</p>
+    </div>
   </div>
 
   <div class="l-block-tab">

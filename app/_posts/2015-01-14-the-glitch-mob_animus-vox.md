@@ -7,6 +7,7 @@ title:        "The Glitch Mob - Animus Vox"
 artist:       "The Glitch Mob"
 song:         "Animus Vox"
 album:        "Drink The Sea"
+year:         2010
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=17PM-UMVud8"
 source:       

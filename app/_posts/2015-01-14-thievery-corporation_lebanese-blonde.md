@@ -7,6 +7,7 @@ title:        "Thievery Corporation - Lebanese Blonde"
 artist:       "Thievery Corporation"
 song:         "Lebanese Blonde"
 album:        "The Mirror Conspiracy"
+year:         2000
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=nq0ESlJhvBM"
 source:       "//www.bigbasstabs.com/thievery_corporation_bass_tabs/lebanese_blonde.html"

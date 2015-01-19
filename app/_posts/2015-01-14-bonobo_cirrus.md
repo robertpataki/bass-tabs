@@ -7,6 +7,7 @@ title:        "Bonobo - Cirrus"
 artist:       "Bonobo"
 song:         "Cirrus"
 album:        "The North Borders"
+year:         2013
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=eh-xjc7XW2s"
 source:       

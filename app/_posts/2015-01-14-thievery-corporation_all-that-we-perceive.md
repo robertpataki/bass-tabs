@@ -7,6 +7,7 @@ title:        "Thievery Corporation - All That We Perceive"
 artist:       "Thievery Corporation"
 song:         "All That We Perceive"
 album:        "The Richest Man in Babylon"
+year:         2002
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=ZKfEzadyrO0"
 source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/all_that_we_percieve_btab.htm"

@@ -7,6 +7,7 @@ title:        "Thievery Corporation - Amerimacka"
 artist:       "Thievery Corporation"
 song:         "Amerimacka"
 album:        "The Cosmic Game"
+year:         2005
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=OCD99jMMuh0"
 source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/amerimaka_btab.htm"
