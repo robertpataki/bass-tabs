@@ -26,7 +26,10 @@ define(
       _this.els.$menuButton = _this.els._$parent.find('.burger_button');
       _this.els.$menu = _this.els._$parent.find('.nav-main');
       _this.els.$menuOverlay = $('.menu_overlay');
-      _this.els.$header = $('.container-header')
+      _this.els.$header = $('.container-header');
+
+      // Vars
+      _this.headerHeight = _this.els._$parent.find('.header').height();
 
       // Signals
       _this.signals = {};
@@ -46,7 +49,7 @@ define(
         if(_this.els._$parent.hasClass('is-open')) {
           _this.els.$menuOverlay.one('click', _onMenuButtonClick);
           
-          TweenMax.to(_this.els.$header, 0.4, {y: 0, ease: Strong.easeInOut});
+          TweenMax.to(_this.els.$header, 0.6, {y: 0, ease: Strong.easeInOut});
 
           TweenMax.to(_this.els.$menuOverlay, 0.3, {opacity: 1, ease: Strong.easeOut, delay: 0.4,
             onStart: function() {
@@ -60,7 +63,7 @@ define(
             }
           });
         } else {
-          TweenMax.to(_this.els.$header, 0.4, {y: -243, ease: Strong.easeInOut});
+          TweenMax.to(_this.els.$header, 0.6, {y: -1 * _this.headerHeight, ease: Strong.easeInOut});
 
           TweenMax.to(_this.els.$menuOverlay, 0.3, {opacity: 0, ease: Strong.easeOut, delay: 0.4, 
             onComplete: function() {
@@ -80,9 +83,11 @@ define(
       };
 
       function _onWindowResized() {
+        _this.headerHeight = _this.els._$parent.find('.header').height();
+        
         _this.els._$parent.removeClass('is-open');
 
-        var targetY = -243;
+        var targetY = -1 * _this.headerHeight;
         if(window.innerWidth > 720) {
           targetY = 0;
         }

@@ -120,12 +120,12 @@
   }
 
   .header {
-    height: 243px;
+    height: 324px;
   }
 
   .container-header {
     position: absolute;
-    @include transform(translateY(-243px));
+    @include transform(translateY(-324px));
   }
 
   .post {
