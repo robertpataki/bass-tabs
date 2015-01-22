@@ -5,6 +5,7 @@ define(
 		'fastclick',
 		'tweenmax',
 		'modules/menu',
+		'modules/search-field',
 		'modules/thumbnails',
 		'modules/youtube-player',
 		'modules/disqus'
@@ -16,6 +17,7 @@ define(
 		fastclick,
 		TweenMax,
 		Menu,
+		SearchField,
 		Thumbnails,
 		YoutubePlayer,
 		Disqus
@@ -61,6 +63,11 @@ define(
 					_this.thumbnails = new Thumbnails(_this, $('.postlist'));
 				}
 
+				if($('#searchfield').length) {
+					_this.searchField = new SearchField(_this, $('#searchfield'));
+					_this.searchField.signals.resultsFetched.add(_onSearchResultsFetched);
+				}
+
 				if($('#yt-player').length) {
 					_this.youtubePlayer = new YoutubePlayer(_this, $('#yt-player'));
 				}
@@ -75,6 +82,10 @@ define(
 		    */
 			function _onWindowResized() {
 				_this.signals.appResized.dispatch();
+			};
+
+			function _onSearchResultsFetched(results) {
+				_this.thumbnails.reload(results);
 			};
 
 			function _supportsTouch() {

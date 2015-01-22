@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"results",
+				"resultsFetched"
+			],
+			[
 				"menu",
 				"menuitem-mobile-height"
 			],
@@ -503,6 +507,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/scripts/modules/search-field.js",
+			"settings":
+			{
+				"buffer_size": 1217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 2006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/modules/thumbnails.js",
+			"settings":
+			{
+				"buffer_size": 2283,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -569,10 +597,53 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rob/Workspace/social-coding/bass-tabs"
+		"/Users/rob/Workspace/social-coding/bass-tabs",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules"
 	],
 	"file_history":
 	[
+		"/Users/rob/Workspace/social-coding/bass-tabs/bass-tabs.sublime-project",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/index.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/site-foot.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_plugins/helpers.rb",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_modules.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_layout.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/menu.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_meta.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/addons/_inline-retina-image.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_layouts/default.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_grid-settings.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-19-thievery-corporation_holographic-universe.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_postlist.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/Gruntfile.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/package.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/bower.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_base.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_dismantling-frank.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.git/COMMIT_EDITMSG",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_all-that-we-perceive.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_amerimacka.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_culture-of-fear.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_lebanese-blonde.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_warning-shots.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-the-glitch-mob_animus-vox.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_the-shark.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_animals.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_cirrus.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_post.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules/menu.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_layouts/post.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_variables.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/resources.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_resources.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/related_posts.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/contributing.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/config.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_nav.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/application.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/app.js",
 		"/Users/rob/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/jekyll-multiple-languages-plugin-1.2.7/example/_plugins/jekyll-multiple-languages-plugin.rb",
 		"/Users/rob/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/jekyll-multiple-languages-plugin-1.2.7/example/_config.yml",
 		"/Users/rob/Workspace/handcrafteddigital/static-site/app/_plugins/ext.rb",
@@ -660,51 +731,11 @@
 		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/styles/_modules.scss",
 		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/modules/composition.js",
 		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/app.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/index.html",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/.git/COMMIT_EDITMSG",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/images/inline/svg/crosshair.svg",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/modules/canvas.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/Gruntfile.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/images/rob-pataki-logo.svg",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/styles/_variables.scss",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/secret.json",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/modules/canvasimage.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/robertpataki.com.sublime-project",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/.editorconfig",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/images/rob-pataki-logo-2.svg",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/bower_components/jquery/src/attributes/val.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/bower_components/bower-bourbon/functions/_transition-property-name.scss",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/bower_components/normalize-scss/normalize.css",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/styles/_fonts.scss",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/bower_components/fastclick/lib/fastclick.js",
-		"/private/etc/hosts",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/bower_components/hammerjs/component.json",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/config.json",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/app/styles/_grid-settings.scss",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/.sass-cache/4582c21d6c1f112efb55a37f9823c03076737c71/_grid-settings.scssc",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/node_modules/grunt-newer/gruntfile.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/Gruntfile.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/app/scripts/app.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/app/styles/_variables.scss",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/.sass-cache/bfd510597934cb4aa960ee0863450f7613a0e255/_grid-width.scssc",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/.sass-cache/ff755f6572a1da911a517595d8baf320308b9718/_grid.scssc",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/.sass-cache/4582c21d6c1f112efb55a37f9823c03076737c71/_variables.scssc",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle-test/app/index.html",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/package.json",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/Gruntfile.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/README.md",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/index.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/app/index.html",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/app/images/_grid-settings.scss",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/.git/COMMIT_EDITMSG",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/app/scripts/app.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/node_modules/yeoman-generator/node_modules/file-utils/Gruntfile.js",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/app/styles/application.scss",
-		"/Users/rob/Workspace/hacking/yo generator/generator-sizzle/app/templates/app/styles/_modules.scss"
+		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/index.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -846,6 +877,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_this.thumbnails",
+			"2",
 			"post",
 			"jekyll",
 			"heaser",
@@ -971,9 +1004,7 @@
 			"logoTopX + centerPointX + gap * 0.5",
 			"logoTopX + centerPointX - gap * 0.5",
 			"draw",
-			"addInteraction",
-			"render",
-			"logoHeight"
+			"addInteraction"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1004,8 +1035,99 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/modules/search-field.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1264,
+								1278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1191.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/modules/thumbnails.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1543,
+								1543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1056,12 +1178,128 @@
 		"selected_items":
 		[
 			[
-				"gemfile",
-				"Gemfile"
+				"thumbnails",
+				"app/scripts/modules/thumbnails.js"
+			],
+			[
+				"menu.html",
+				"app/_includes/menu.html"
+			],
+			[
+				"site-foot",
+				"app/_includes/site-foot.html"
+			],
+			[
+				"default.",
+				"app/_layouts/default.html"
+			],
+			[
+				"helper.",
+				"app/_plugins/helpers.rb"
 			],
 			[
 				"app.js",
 				"app/scripts/app.js"
+			],
+			[
+				"layout",
+				"app/styles/_layout.scss"
+			],
+			[
+				"postlist",
+				"app/styles/modules/_postlist.scss"
+			],
+			[
+				"modules",
+				"app/styles/_modules.scss"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"holo",
+				"app/_posts/2015-01-19-thievery-corporation_holographic-universe.md"
+			],
+			[
+				"post.scss",
+				"app/styles/modules/_post.scss"
+			],
+			[
+				"meta",
+				"app/styles/modules/_meta.scss"
+			],
+			[
+				"grid-settings",
+				"app/styles/_grid-settings.scss"
+			],
+			[
+				"meta.scss",
+				"app/styles/modules/_meta.scss"
+			],
+			[
+				"post.html",
+				"app/_layouts/post.html"
+			],
+			[
+				"holographic",
+				"app/_posts/2015-01-19-thievery-corporation_holographic-universe.md"
+			],
+			[
+				"bonobo",
+				"app/_posts/2015-01-14-bonobo_dismantling-frank.md"
+			],
+			[
+				"related",
+				"app/_includes/related_posts.html"
+			],
+			[
+				"layoutscss",
+				"app/styles/_layout.scss"
+			],
+			[
+				"resource",
+				"app/resources.html"
+			],
+			[
+				"resources",
+				"app/styles/modules/_resources.scss"
+			],
+			[
+				"base",
+				"app/styles/_base.scss"
+			],
+			[
+				"variables",
+				"app/styles/_variables.scss"
+			],
+			[
+				"menu.js",
+				"app/scripts/modules/menu.js"
+			],
+			[
+				"nav.scss",
+				"app/styles/modules/_nav.scss"
+			],
+			[
+				"application",
+				"app/styles/application.scss"
+			],
+			[
+				"gemfile",
+				"Gemfile"
 			],
 			[
 				"head.html",
@@ -1084,14 +1322,6 @@
 				"app/_layouts/default.html"
 			],
 			[
-				"modules",
-				"app/styles/_modules.scss"
-			],
-			[
-				"variables",
-				"app/styles/_variables.scss"
-			],
-			[
 				"header.",
 				"app/_includes/header.html"
 			],
@@ -1101,10 +1331,6 @@
 			],
 			[
 				"package.",
-				"package.json"
-			],
-			[
-				"package",
 				"package.json"
 			],
 			[
@@ -1128,24 +1354,12 @@
 				"app/_includes/lang-menu.html"
 			],
 			[
-				"grid-settings",
-				"app/styles/_grid-settings.scss"
-			],
-			[
 				"lang-menu.html",
 				"app/_includes/lang-menu.html"
 			],
 			[
-				"gruntfile",
-				"Gruntfile.js"
-			],
-			[
 				"base.scss",
 				"app/styles/_base.scss"
-			],
-			[
-				"menu.html",
-				"app/_includes/menu.html"
 			],
 			[
 				"langmenu",
@@ -1154,10 +1368,6 @@
 			[
 				"gitignore",
 				".gitignore"
-			],
-			[
-				"application",
-				".jekyll/styles/application.scss"
 			],
 			[
 				".htaccess",
@@ -1186,10 +1396,6 @@
 			[
 				"svg",
 				"app/images/rob-pataki-logo.svg"
-			],
-			[
-				"index",
-				"app/index.html"
 			],
 			[
 				"canvas.js",
@@ -1246,14 +1452,6 @@
 			[
 				"grid-setings",
 				"app/templates/app/styles/_grid-settings.scss"
-			],
-			[
-				"base",
-				"app/templates/app/styles/_base.scss"
-			],
-			[
-				"bower",
-				"app/templates/_bower.json"
 			],
 			[
 				"read",
@@ -1354,10 +1552,6 @@
 			[
 				"primarynav",
 				"app/scripts/modules/primaryNav.js"
-			],
-			[
-				"nav.scss",
-				"app/styles/modules/_nav.scss"
 			],
 			[
 				"view",
@@ -1494,78 +1688,6 @@
 			[
 				"helper",
 				"app/scripts/helper.js"
-			],
-			[
-				"videoviewbo",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"imagepreloader",
-				"app/scripts/modules/imagePreloader.js"
-			],
-			[
-				"thumbnail",
-				"app/styles/modules/_thumbnails.scss"
-			],
-			[
-				"modules.scss",
-				"app/styles/_modules.scss"
-			],
-			[
-				"app.scss",
-				"app/styles/application.scss"
-			],
-			[
-				"thumbnail.",
-				"app/scripts/modules/videoThumbnail.js"
-			],
-			[
-				"thumbnail.scss",
-				"app/styles/modules/_thumbnails.scss"
-			],
-			[
-				"contents.scss",
-				"bower_components/bower-bourbon/helpers/_render-gradients.scss"
-			],
-			[
-				"photocontent",
-				"app/scripts/modules/contentBlocks/photosContentBlock.js"
-			],
-			[
-				"contentblo",
-				"app/scripts/modules/contentBlocks/contentBlock.js"
-			],
-			[
-				"herocontentblock",
-				"app/scripts/modules/contentBlocks/heroContentBlock.js"
-			],
-			[
-				"videoscontent",
-				"app/scripts/modules/contentBlocks/videosContentBlock.js"
-			],
-			[
-				"contentnlock",
-				"app/scripts/modules/contentBlocks/contentBlock.js"
-			],
-			[
-				"contentnblockgroup",
-				"app/scripts/modules/contentBlocks/contentBlockGroup.js"
-			],
-			[
-				"contentblocj",
-				"app/scripts/modules/contentBlocks/contentBlockGroup.js"
-			],
-			[
-				"index.ht",
-				"app/index.html"
-			],
-			[
-				"viewo",
-				"app/scripts/templates/video-viewbox.html"
-			],
-			[
-				"viewbox-video",
-				"app/styles/modules/_viewbox-video.scss"
 			]
 		],
 		"width": 0.0

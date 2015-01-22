@@ -1,15 +1,15 @@
 ---
-layout:       "<%= layout %>"
-date:         <%= new Date().toISOString().slice(0,19).replace('T',' ') %>
+layout:       "post"
+date:         2015-01-20 23:35:45
 categories:   "tabs"
 
-title:        "<%= title %>"
-artist:       "<%= artist %>"
-song:         "<%= song %>"
-album:        
-year:         
+title:        "Wild Belle - Keep You"
+artist:       "Wild Belle"
+song:         "Keep You"
+album:        Isles
+year:         2013
 tuning:       "GDAE"
-youtube:      
+youtube:      "//www.youtube.com/watch?v=RLKOmXm6W3s"
 source:       
 tags:         
 ---

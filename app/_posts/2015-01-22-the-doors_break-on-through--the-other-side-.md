@@ -1,11 +1,11 @@
 ---
-layout:       "<%= layout %>"
-date:         <%= new Date().toISOString().slice(0,19).replace('T',' ') %>
+layout:       "post"
+date:         2015-01-22 13:12:32
 categories:   "tabs"
 
-title:        "<%= title %>"
-artist:       "<%= artist %>"
-song:         "<%= song %>"
+title:        "The Doors - Break On Through (The Other Side)"
+artist:       "The Doors"
+song:         "Break On Through (The Other Side)"
 album:        
 year:         
 tuning:       "GDAE"
@@ -18,9 +18,9 @@ tags:
 
 ```
 G |--------------------------------|
-D |--------------------------------|
-A |--------------------------------|
-E |--------------------------------|
+D |----------5---------------------|
+A |-------------7------------------|
+E |---------------0----------------|
 ```
 
 #### Chorus

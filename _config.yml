@@ -28,6 +28,3 @@ markdown: redcarpet
 pygments: true
 
 baseurl: ""
-
-paginate: 10
-paginate_path: "tabs/page-:num"

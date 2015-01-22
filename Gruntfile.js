@@ -140,6 +140,7 @@ module.exports = function (grunt) {
             '<%= config.dist %>/styles/{,*/}*.css',
             '<%= config.dist %>/images/{,*/}*.*',
             '<%= config.dist %>/fonts/{,*/}*.*',
+            '<%= config.dist %>/data{,*/}*.json',
             '!<%= config.dist %>apple-touch-icon.png',
             '!<%= config.dist %>favicon.ico'
           ]
@@ -210,8 +211,7 @@ module.exports = function (grunt) {
         dest: '<%= config.dist %>'
       },
       html: [
-        '<%= config.app %>/en/index.html',
-        '<%= config.app %>/dk/index.html'
+        
       ]
     },
 
@@ -225,13 +225,14 @@ module.exports = function (grunt) {
         ],
         patterns: {
           js: [
-            [/(images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm, 'Update the JS to reference our revved images']
+            [/(images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm, 'Update the JS to reference our revved images'],
+            [/(data\/.*?\.(?:json))/gm, 'Update the JS to reference our revved data files']
           ]
         }
       },
       html: ['<%= config.dist %>/{,*/}*.html'],
       css: ['<%= config.dist %>/styles/{,*/}*.css'],
-      json: ['<%= config.dist %>/resources/{,*/}*.json'],
+      json: ['<%= config.dist %>/data/*.json'],
       js: ['<%= config.dist %>/scripts/{,*/}*.js']
     },
 
@@ -334,7 +335,7 @@ module.exports = function (grunt) {
             '!{,*/}*.html',
             'fonts/{,*/}*.*',
             'videos/{,*/}*.*',
-            'resources/{,*/}*.*',
+            'data/{,*/}*.*',
             '!images/svg',
             '!en/**',
             '!hu/**',
@@ -344,6 +345,9 @@ module.exports = function (grunt) {
         }, {
           src: '<%= config.app %>/.htaccess',
           dest: '<%= config.dist %>/htaccess'
+        }, {
+          src: '.jekyll/data/search.json',
+          dest: '<%= config.dist %>/data/search.json'
         }]
       },
       styles: {
@@ -371,7 +375,8 @@ module.exports = function (grunt) {
     replace: {
       baseurl: {
         overwrite: true, 
-        src: ['<%= config.dist %>/{,*/}*.html'],             // source files array (supports minimatch)
+        src: ['<%= config.dist %>/{,*/}*.html',
+              '<%= config.dist %>/scripts/{,*/}*.js'],             // source files array (supports minimatch)
         replacements: [{
           from: '/styles/',
           to: '/os-bass-tabs/styles/'
@@ -387,6 +392,9 @@ module.exports = function (grunt) {
         }, {
           from: 'apple-touch-icon.png',
           to: '/os-bass-tabs/apple-touch-icon.png'
+        }, {
+          from: 'data/',
+          to: '/os-bass-tabs/data/'
         }]
       }
     },
