@@ -1,5 +1,6 @@
 .post {
   background-color: $colour-content-background;
+  min-height: 500px;
 
   h2 {
     @extend .font-headline;
