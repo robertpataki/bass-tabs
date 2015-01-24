@@ -60,7 +60,7 @@ define(
         }
 
         if(!results.length) {
-          results = 'We don\'t have that one :(';
+          results = 'The computer says no...';
         }
         
         if(_this.cachedResults.length != results.length) {

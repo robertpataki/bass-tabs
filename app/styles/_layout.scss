@@ -7,7 +7,7 @@
 
 .l-content {
   @include outer-container;
-  padding: 50px 0;
+  padding: 15px 0 50px 0;
 }
 
 .l-block {
@@ -34,6 +34,17 @@
 
   &:last-child {
     border: none; 
+  }
+}
+
+.l-block-page {
+  @extend .l-block-tab;
+
+  padding-bottom: 21px;
+  border-bottom: 1px solid $colour-font-highlight;
+
+  p, ul {
+    max-width: 640px;
   }
 }
 
