@@ -27,9 +27,9 @@
 .l-block-tab {
   @extend .l-block;
 
-  &:not(:first-child, :last-child) {
+  &:not(:first-child):not(:last-child) {
     padding-bottom: 21px;
-    border-bottom: 1px solid $colour-font-highlight;
+    border-bottom: 1px solid tint($colour-font, 80%);
   }
 }
 

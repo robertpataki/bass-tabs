@@ -23,6 +23,7 @@ define(
       _this.els.$window = $(window);
       _this.els.$html = $('html');
       _this.els._$parent = el;
+      _this.els.$form = $('#searchform');
 
       // Signals
       _this.signals = {};
@@ -44,11 +45,24 @@ define(
         $.getJSON(_this.jsonFile, function(data) {
           _this.data = data;
 
-          _this.els._$parent.on('keyup', _onKeyUp);
+          if(!_this.app.supportsTouch()) {
+            _this.els._$parent.on('keyup', _onKeyUp);
+          } else {
+            _this.els.$form.on('submit', _onSubmit);
+          }
         });
       };
 
       function _onKeyUp(e) {
+        _search();
+      };
+
+      function _onSubmit(e) {
+        e.preventDefault();
+        _search();
+      }
+
+      function _search() {
         _this.regex = new RegExp(_this.els._$parent.val().toLowerCase());
 
         var results = [];
@@ -67,7 +81,7 @@ define(
           _this.cachedResults = results;
           _this.signals.resultsFetched.dispatch(results);
         }
-      };
+      }
 
       // Self initialising
       $(_init());

@@ -45,7 +45,7 @@ define(
 //////////////// PRIVATE METHODS
 ///
 			function _init() {
-				if(_supportsTouch()) {
+				if(_this.supportsTouch()) {
 					_this.els.$html.addClass('is-touch');
 				}
 
@@ -88,12 +88,12 @@ define(
 				_this.thumbnails.reload(results);
 			};
 
-			function _supportsTouch() {
+			this.supportsTouch = function supportsTouch() {
         return  !!('ontouchstart' in window) ||
                 (!!('onmsgesturechange' in window) && !!window.navigator.maxTouchPoints);
     	};
 
-			// Self initialising
+    	// Self initialising
 			$(_init());
 		}
 
