@@ -27,28 +27,44 @@
 .l-block-tab {
   @extend .l-block;
 
-  &:not(:first-child) {
+  &:not(:first-child, :last-child) {
     padding-bottom: 21px;
     border-bottom: 1px solid $colour-font-highlight;
-  }
-
-  &:last-child {
-    border: none; 
   }
 }
 
 .l-block-page {
-  @extend .l-block-tab;
+  @include span-columns(8 of 10);
+  @include shift(1);
 
-  padding-bottom: 21px;
-  border-bottom: 1px solid $colour-font-highlight;
+  &:not(:first-child):not(:last-child) {
+    padding-bottom: 21px;
+    border-bottom: 1px solid tint($colour-font, 80%);
+  }
 
-  p, ul {
-    max-width: 640px;
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  &:first-child {
+    margin-top: 40px; 
+  }
+
+  &:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .content {
+    @include span-columns(7.8 of 8);
+    @include shift(0.1);
+  }
+
+  .heading {
+    margin-bottom: 10px;
   }
 }
 
-.l-block-content {
+.l-block-resource {
   @extend .l-block;
 
   &:not(:nth-child(2)) {

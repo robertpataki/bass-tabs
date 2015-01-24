@@ -14,6 +14,7 @@
   width: 200px;
   height: 200px;
   float: left;
+  overflow: hidden;
 
   h3 {
     margin-top: 0;
@@ -44,6 +45,10 @@
   position: absolute;
   background: inline-image("../images/inline/record-sleeve@2x.jpg") 50% 50% no-repeat;
   background-size: cover;
+
+  @include transition-property(transform);
+  @include transition-duration(0.4s);
+  @include animation-timing-function($ease-out-expo);
 }
 
 .postlistitem_content {
@@ -71,6 +76,16 @@ html:not(.is-touch) {
     &:hover {
       .postlistitem_border {
         border-width: 12px;
+      }
+      .postlistitem_img {
+        @include transform(scale(1.2) rotate(6deg));
+      }
+    }
+  }
+  .postlistitem:nth-child(2n) {
+    &:hover {
+      .postlistitem_img {
+        @include transform(scale(1.2) rotate(-6deg));
       }
     }
   }
