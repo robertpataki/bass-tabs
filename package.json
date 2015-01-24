@@ -3,11 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "Open source bass tabs",
-  "dependencies": {
-    "grunt-text-replace": "^0.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-text-replace": "^0.4.0",
     "apache-server-configs": "^2.7.1",
     "grunt": "^0.4.5",
     "grunt-concurrent": "^0.5.0",
@@ -20,8 +18,9 @@
     "grunt-contrib-htmlmin": "^0.3.0",
     "grunt-contrib-imagemin": "^0.8.0",
     "grunt-contrib-uglify": "^0.5.1",
-    "grunt-jekyll": "^0.4.2",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-jekyll": "^0.4.2",
     "grunt-newer": "^0.7.0",
     "grunt-requirejs": "^0.4.2",
     "grunt-rev": "^0.1.0",

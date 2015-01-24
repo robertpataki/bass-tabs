@@ -30,6 +30,7 @@ define(
 
       // Vars
       _this.cache = _this.els._$parent.clone();
+      _this.data = [];
 
 /////////////
 //////////////// PRIVATE METHODS
@@ -77,7 +78,7 @@ define(
       };
 
       function _displayThumbnails () {
-        TweenMax.to(_this.els._$parent, 1.2, {opacity: 1, ease: Expo.easeOut,
+        TweenMax.to(_this.els._$parent, 0.4, {opacity: 1, ease: Expo.easeOut,
           onStart: function() {
             _this.els._$parent.css({
               'visibility': 'visible'
@@ -86,32 +87,48 @@ define(
         });
       };
 
-      // Self initialising
-      $(_init());
+      function _hideThumbnails() {
+        TweenMax.to(_this.els._$parent, 0.1, {opacity: 0, ease: Expo.easeOut,
+          onComplete: function() {
+            _this.els._$parent.css({
+              'visibility': 'hidden'
+            });
+            _onThumbnailsHidden();
+          }
+        });
+      };
 
-      this.reload = function reload(data) {
-        if(typeof data === 'object') {
+      function _onThumbnailsHidden() {
+        if(typeof _this.data === 'object') {
           _this.els.$results.html('<ul class="posts postlist"></ul>');
           _this.els._$parent = _this.els.$results.find('.posts');
 
-          for(var i = 0; i < data.length; i ++) {
+          for(var i = 0; i < _this.data.length; i ++) {
             var str =   '<li class="postlistitem">';
-                str +=  '<a href="' + data[i].url + '">';
+                str +=  '<a href="' + _this.data[i].url + '">';
                 str +=  '<div class="postlistitem_img"></div>';
                 str +=  '<div class="postlistitem_content">';
-                str +=  '<h3>' + data[i].song + '</h3>';
-                str +=  '<div>' + data[i].artist + '</div>';
+                str +=  '<h3>' + _this.data[i].song + '</h3>';
+                str +=  '<div>' + _this.data[i].artist + '</div>';
                 str +=  '</div>';
                 str +=  '<div class="postlistitem_border"></div>';
                 str +=   '</a>';
                 str +=  '</li>';
             _this.els.$results.find('.posts').append($(str));
           }
-        } else if (typeof data === 'string') {
-          _this.els.$results.html('<p>' + data + '</p>');
+        } else if (typeof _this.data === 'string') {
+          _this.els.$results.html('<p>' + _this.data + '</p>');
         }
         _resizeThumbnails();
         _displayThumbnails();
+      }
+
+      // Self initialising
+      $(_init());
+
+      this.reload = function reload(data) {
+        _this.data = data;
+        _hideThumbnails();
       };
     }
 
