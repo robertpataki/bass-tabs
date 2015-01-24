@@ -81,6 +81,11 @@
     outline: none;
     border-color: lighten($colour-font-highlight, 10%);
   }
+
+  @include media($tablet-breakpoint) {
+    right: 0;
+    left: 0;   
+  }
 }
 
 #searchresults {
