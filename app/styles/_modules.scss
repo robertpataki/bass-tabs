@@ -119,7 +119,15 @@ a.button-big {
 .branding_footer {
   width: 80px;
   height: 89px;
-  margin: 48px auto 0 auto;
+  margin: 24px auto 0 auto;
   @include retina-image("../images/inline/os-bass-tabs-logo-invert", 80px 89px);
   opacity: 0.8;
+}
+.footer_content {
+  text-align: center;
+  color: $colour-font-invert;
+  a {
+    color: $colour-font-invert;
+  }
+  margin-top: 32px;
 }
