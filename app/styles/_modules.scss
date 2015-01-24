@@ -49,7 +49,7 @@
   }
 }
 
-.heading {
+.heading-inline {
   @include span-columns(5 of 10);
 
   @include media($tablet-breakpoint) {
