@@ -8,6 +8,9 @@ artist:       "Wild Belle"
 song:         "Keep You"
 album:        Isles
 year:         2013
+author:       "Rob Pataki"
+author_email: "robert@robertpataki.com"
+author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=RLKOmXm6W3s"
 source:       

@@ -8,6 +8,9 @@ artist:       "The Glitch Mob"
 song:         "Animus Vox"
 album:        "Drink The Sea"
 year:         2010
+author:       "Rob Pataki"
+author_email: "robert@robertpataki.com"
+author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=17PM-UMVud8"
 source:       

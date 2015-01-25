@@ -8,6 +8,9 @@ artist:       "Thievery Corporation"
 song:         "Culture Of Fear"
 album:        "Culture Of Fear"
 year:         2011
+author:       "Rob Pataki"
+author_email: "robert@robertpataki.com"
+author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=GWvqkDvv4mE"
 source:       

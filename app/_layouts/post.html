@@ -8,7 +8,19 @@ layout: default
       <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
       <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
       <p class="meta-year"><span class="meta_label">Year:</span> {{ page.year }}</p>
-      <p class="meta-date"><span class="meta_label">Tabs added:</span> {{ page.date | date: '%-d %B %Y' }}</p>
+      <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%-d/%m/%Y' }}</p>
+      
+      {% if page.author != "" %}
+        <p class="meta-author"><span class="meta_label">Author:</span>
+          {% if page.author_site != "" %}
+          <a href="{{ page.author_site }}" target="_blank">{{page.author}}</a>
+          {% elsif page.author_email != "" %}
+          <a href="mailto:{{ page.author_email }}?subject=OS Bass Tabs">{{page.author}}</a>
+          {% else %}
+          {{page.author}}
+          {% endif %}
+        </p>
+      {% endif %}
     </div>
   </div>
 

@@ -4,7 +4,8 @@
 .meta-artist,
 .meta-album,
 .meta-year,
-.meta-date {
+.meta-date,
+.meta-author {
   @extend .meta; 
 }
 
@@ -13,13 +14,23 @@
   right: 12px;
   top: 0;
 }
+.meta-author {
+  position: absolute;
+  right: 12px;
+  top: 24px;
+
+  a {
+    color: inherit;
+  }
+}
 
 .meta_label {
   opacity: 0.6;
 }
 
 @include media($tablet-breakpoint) {
-  .meta-date {
+  .meta-date,
+  .meta-author {
     position: relative;
     right: 0;
     top: 0;

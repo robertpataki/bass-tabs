@@ -8,6 +8,9 @@ artist:       "Thievery Corporation"
 song:         "Holographic Universe"
 album:        "The Cosmic Game"
 year:         2005
+author:       "Rob Pataki"
+author_email: "robert@robertpataki.com"
+author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=mRrLRLRCuuc"
 source:       

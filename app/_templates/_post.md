@@ -8,6 +8,9 @@ artist:       "<%= artist %>"
 song:         "<%= song %>"
 album:        
 year:         
+author:       ""
+author_email: ""
+author_site:  ""
 tuning:       "GDAE"
 youtube:      
 source:       
