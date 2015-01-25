@@ -47,9 +47,8 @@ define(
 
           if(!_this.app.supportsTouch()) {
             _this.els._$parent.on('keyup', _onKeyUp);
-          } else {
-            _this.els.$form.on('submit', _onSubmit);
           }
+          _this.els.$form.on('submit', _onSubmit);
         });
       };
 
