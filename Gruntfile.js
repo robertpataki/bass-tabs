@@ -335,7 +335,6 @@ module.exports = function (grunt) {
             '!{,*/}*.html',
             'fonts/{,*/}*.*',
             'videos/{,*/}*.*',
-            'data/{,*/}*.*',
             '!images/svg',
             '!en/**',
             '!hu/**',
@@ -345,9 +344,6 @@ module.exports = function (grunt) {
         }, {
           src: '<%= config.app %>/.htaccess',
           dest: '<%= config.dist %>/htaccess'
-        }, {
-          src: '.jekyll/data/search.json',
-          dest: '<%= config.dist %>/data/search.json'
         }]
       },
       styles: {
