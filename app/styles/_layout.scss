@@ -66,6 +66,9 @@
     // color: $colour-font;
   }
 }
+.l-block-intro + .l-block-page {
+  margin-top: 12px;
+}
 
 .l-block-resource {
   @extend .l-block;
