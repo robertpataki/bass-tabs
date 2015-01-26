@@ -40,8 +40,8 @@
 }
 
 .post_header {
-  @include span-columns(10.5);
-  @include shift(0.75);
+  @include span-columns(10);
+  @include shift(1);
   background: inline-image("../images/inline/post-header.jpg") 50% 50%;
   background-size: cover;
   background-color: #147b50;

@@ -91,10 +91,6 @@
     left: 0;   
   }
 }
-
-#searchresults {
-  @include span-columns(10 of 10);
-}
 .branding_footer {
   width: 80px;
   height: 89px;

@@ -14,7 +14,7 @@ title: OS Bass Tabs
       </div>  
     </div>
 
-    <div id="searchresults">
+    <div id="searchresults" class="content">
       <ul class="posts postlist">
         {% assign sorted_posts = (site.posts | sort: 'title') %}
         {% for post in sorted_posts %}
@@ -34,10 +34,12 @@ title: OS Bass Tabs
   </div>
 
   <div class="l-block-page">
-    <h3>Want to know more about this project, or want to add your bass tabs?</h3>
-    <p class="button_wrapper">
-      <a href="{{ site.baseurl }}/about.html" class="button-big button-cta">Read more about this project</a>
-      <a href="{{ site.baseurl }}/contributing.html" class="button-big button-cta">See how you can contribute</a>
-    </p>
+    <div class="content">
+      <h3>Want to know more about this project, or want to add your bass tabs?</h3>
+      <p class="button_wrapper">
+        <a href="{{ site.baseurl }}/about.html" class="button-big button-cta">Read more about this project</a>
+        <a href="{{ site.baseurl }}/contributing.html" class="button-big button-cta">See how you can contribute</a>
+      </p>
+    </div>
   </div>
 </div>
