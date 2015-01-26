@@ -1,87 +1,80 @@
 [
     
     {
-      "title"     : "The Doors - Break On Through (The Other Side)",
-      "song"      : "Break On Through (The Other Side)",
-      "artist"    : "The Doors",
-      "url"       : "/tabs/the-doors_break-on-through--the-other-side-.html"
-    },
-    
-    {
       "title"     : "Wild Belle - Keep You",
       "song"      : "Keep You",
       "artist"    : "Wild Belle",
-      "url"       : "/tabs/wild-belle_keep-you.html"
+      "url"       : "/os-bass-tabs/tabs/wild-belle_keep-you.html"
     },
     
     {
       "title"     : "Thievery Corporation - Holographic Universe",
       "song"      : "Holographic Universe",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_holographic-universe.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_holographic-universe.html"
     },
     
     {
       "title"     : "Thievery Corporation - Lebanese Blonde",
       "song"      : "Lebanese Blonde",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_lebanese-blonde.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_lebanese-blonde.html"
     },
     
     {
       "title"     : "Thievery Corporation - Amerimacka",
       "song"      : "Amerimacka",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_amerimacka.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_amerimacka.html"
     },
     
     {
       "title"     : "Thievery Corporation - All That We Perceive",
       "song"      : "All That We Perceive",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_all-that-we-perceive.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_all-that-we-perceive.html"
     },
     
     {
       "title"     : "The Glitch Mob - Animus Vox",
       "song"      : "Animus Vox",
       "artist"    : "The Glitch Mob",
-      "url"       : "/tabs/the-glitch-mob_animus-vox.html"
+      "url"       : "/os-bass-tabs/tabs/the-glitch-mob_animus-vox.html"
     },
     
     {
       "title"     : "Bonobo - Animals",
       "song"      : "Animals",
       "artist"    : "Bonobo",
-      "url"       : "/tabs/bonobo_animals.html"
+      "url"       : "/os-bass-tabs/tabs/bonobo_animals.html"
     },
     
     {
       "title"     : "Thievery Corporation - Culture Of Fear",
       "song"      : "Culture Of Fear",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_culture-of-fear.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_culture-of-fear.html"
     },
     
     {
       "title"     : "Thievery Corporation - Warning Shots",
       "song"      : "Warning Shots",
       "artist"    : "Thievery Corporation",
-      "url"       : "/tabs/thievery-corporation_warning-shots.html"
+      "url"       : "/os-bass-tabs/tabs/thievery-corporation_warning-shots.html"
     },
     
     {
       "title"     : "Bonobo - Dismantling Frank",
       "song"      : "Dismantling Frank",
       "artist"    : "Bonobo",
-      "url"       : "/tabs/bonobo_dismantling-frank.html"
+      "url"       : "/os-bass-tabs/tabs/bonobo_dismantling-frank.html"
     },
     
     {
       "title"     : "Bonobo - The Shark",
       "song"      : "The Shark",
       "artist"    : "Bonobo",
-      "url"       : "/tabs/bonobo_the-shark.html"
+      "url"       : "/os-bass-tabs/tabs/bonobo_the-shark.html"
     }
     
 ]
