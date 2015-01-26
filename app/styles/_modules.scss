@@ -95,39 +95,6 @@
 #searchresults {
   @include span-columns(10 of 10);
 }
-
-a.button-big {
-  @include span-columns(5 of 10);
-  background: $colour-button-background;
-  border: none;
-  outline: none;
-  padding: 32px 12px;
-  color: $colour-font-invert;
-  text-align: center;
-  margin-top: 24px;
-
-  @include transition-property(background);
-  @include transition-duration(0.2s);
-  @include animation-timing-function($ease-out-expo);
-
-  &:hover {
-    background: tint($colour-button-background, 10%);
-    text-decoration: none;
-  }
-
-  @include media($tablet-breakpoint) {
-    @include span-columns(10 of 10);    
-  }
-}
-
-a.button-cta {
-  background: tint($colour-font-highlight, 10%);
-
-  &:hover {
-    background: tint($colour-font-highlight, 20%);
-  }
-}
-
 .branding_footer {
   width: 80px;
   height: 89px;

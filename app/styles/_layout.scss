@@ -43,8 +43,10 @@
     border-bottom: 1px solid tint($colour-font, 80%);
   }
 
-  &:not(.l-block-page-norule):first-child {
-    border-bottom: 1px solid $colour-font-highlight;
+  &.l-block-faintrule {
+    @include clearfix;
+    padding-bottom: 21px;
+    border-bottom: 1px solid tint($colour-font, 80%);
   }
 
   &:first-child {
