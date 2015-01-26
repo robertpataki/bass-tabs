@@ -13,8 +13,9 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=GWvqkDvv4mE"
-source:       
 tags:         
+
+published:    false
 ---
 
 #### Intro/Verse (00:00-01:14)

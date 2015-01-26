@@ -12,9 +12,10 @@ author:       "Rob Pataki"
 author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
-youtube:      "//www.youtube.com/watch?v=RLKOmXm6W3s"
-source:       
+youtube:      "//www.youtube.com/watch?v=2EtYBbPH-kw"
 tags:         
+
+published:    true
 ---
 
 #### Verse

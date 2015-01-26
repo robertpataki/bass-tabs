@@ -15,6 +15,8 @@ tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=oynvIzi2HUs"
 source:       "http://www.tabcrawler.com/1739353/bonobo/the-shark-ver-1"
 tags:         
+
+published:    false
 ---
 
 #### (0:23) Bass comes in after drum roll; Main Riff
@@ -67,6 +69,3 @@ D |---------------------------------------------------------|
 A |------1/6------1/6------1/6------1/6~--------------------|
 E |---------------------------------------------------------|
 ```
-
-> *Variation of notes
-> Tabbed by Jasen D. Berry (jasenberry@hotmail.com)

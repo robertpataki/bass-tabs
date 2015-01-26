@@ -13,8 +13,9 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=JDGmcF2FZP4"
-source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/"
 tags:         
+
+published:    false
 ---
 
 #### Riff #1

@@ -13,7 +13,6 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=17PM-UMVud8"
-source:       
 tags:         
 ---
 

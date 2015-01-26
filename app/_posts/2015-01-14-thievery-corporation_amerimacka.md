@@ -13,8 +13,9 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=OCD99jMMuh0"
-source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/amerimaka_btab.htm"
 tags:         
+
+published:    false
 ---
 
 > Only two parts two whole song so ill write them out then write the structure of the song for you

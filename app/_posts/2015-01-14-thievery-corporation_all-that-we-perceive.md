@@ -13,8 +13,9 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=ZKfEzadyrO0"
-source:       "//tabs.ultimate-guitar.com/t/thievery_corporation/all_that_we_percieve_btab.htm"
 tags:         
+
+published:    false
 ---
 
 #### Intro/Verse

@@ -13,8 +13,9 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=nq0ESlJhvBM"
-source:       "//www.bigbasstabs.com/thievery_corporation_bass_tabs/lebanese_blonde.html"
 tags:         
+
+published:    false
 ---
 
 #### Intro/Chorus riff

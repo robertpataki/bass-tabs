@@ -6,15 +6,16 @@ categories:   "tabs"
 title:        "<%= title %>"
 artist:       "<%= artist %>"
 song:         "<%= song %>"
-album:        
+album:        ""
 year:         
 author:       ""
 author_email: ""
 author_site:  ""
 tuning:       "GDAE"
-youtube:      
-source:       
+youtube:      ""
 tags:         
+
+published:    true
 ---
 
 #### Verse

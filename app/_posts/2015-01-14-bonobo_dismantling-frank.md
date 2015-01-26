@@ -14,7 +14,9 @@ author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=CT_tPxlWViY"
 source:       "//tabs.ultimate-guitar.com/b/bonobo/dismantling_frank_btab_1406439id_29072013date.htm"
-tags:         
+tags:        
+
+published:    false 
 ---
 
 #### Verse
