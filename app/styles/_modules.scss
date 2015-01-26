@@ -1,3 +1,13 @@
+.left {
+  display: inline-block;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+
 .container-header {
   background-color: $colour-header-background;
 }

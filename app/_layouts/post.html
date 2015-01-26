@@ -5,12 +5,16 @@ layout: default
   <div class="l-block-tab post_header">
     <h2>{{ page.song }}</h2>
     <div class="metadata">
-      <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
-      <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
-      <p class="meta-year"><span class="meta_label">Year:</span> {{ page.year }}</p>
-      <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%-d/%m/%Y' }}</p>
-      
-      {% if page.author != "" %}
+      <div class="left">
+        <p class="meta-artist"><span class="meta_label">Artist:</span> {{ page.artist }}</p>
+        <p class="meta-album"><span class="meta_label">Album:</span> {{ page.album }}</p>
+        <p class="meta-year"><span class="meta_label">Year:</span> {{ page.year }}</p>
+      </div>
+      <div class="right">
+        {% if page.tuning != "" %}
+          <p class="meta-tuning"><span class="meta_label">Tuning:</span> {{ page.tuning }}</p>
+        {% endif %}
+        {% if page.author != "" %}
         <p class="meta-author"><span class="meta_label">Author:</span>
           {% if page.author_site != "" %}
           <a href="{{ page.author_site }}" target="_blank">{{page.author}}</a>
@@ -20,7 +24,9 @@ layout: default
           {{page.author}}
           {% endif %}
         </p>
-      {% endif %}
+        {% endif %}
+        <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%-d/%m/%Y' }}</p>
+      </div>
     </div>
   </div>
 

@@ -5,20 +5,12 @@
 .meta-album,
 .meta-year,
 .meta-date,
-.meta-author {
+.meta-author,
+.meta-tuning {
   @extend .meta; 
 }
 
-.meta-date {
-  position: absolute;
-  right: 12px;
-  top: 0;
-}
 .meta-author {
-  position: absolute;
-  right: 12px;
-  top: 24px;
-
   a {
     color: inherit;
   }
@@ -29,12 +21,15 @@
 }
 
 @include media($tablet-breakpoint) {
-  .meta-date,
-  .meta-author {
-    position: relative;
-    right: 0;
-    top: 0;
-    left: 0;
-    padding-left: 12px;
+  .metadata {
+    .left,
+    .right {
+      display: block;
+    }
+    .right {
+      position: relative;
+      right: 0;
+      left: 0;
+    }
   }
 }
