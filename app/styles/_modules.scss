@@ -120,6 +120,14 @@ a.button-big {
   }
 }
 
+a.button-cta {
+  background: tint($colour-font-highlight, 10%);
+
+  &:hover {
+    background: tint($colour-font-highlight, 20%);
+  }
+}
+
 .branding_footer {
   width: 80px;
   height: 89px;
