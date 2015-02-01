@@ -25,7 +25,7 @@ layout: default
           {% endif %}
         </p>
         {% endif %}
-        <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%-d/%m/%Y' }}</p>
+        <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%d/%m/%Y' }}</p>
       </div>
     </div>
   </div>
@@ -36,6 +36,8 @@ layout: default
       {{ content }}
     </div>
   </div>
+
+  {% include tab_symbols.html %}
 
   {% if page.youtube != "" %}
     <div class="l-block-page">

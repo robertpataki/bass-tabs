@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"colour",
+				"colour-font-invert"
+			],
+			[
+				"colo",
+				"colour-font"
+			],
+			[
 				"results",
 				"resultsFetched"
 			],
@@ -507,30 +515,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/scripts/modules/search-field.js",
-			"settings":
-			{
-				"buffer_size": 1217,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 2006,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/modules/thumbnails.js",
-			"settings":
-			{
-				"buffer_size": 2283,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -595,55 +579,73 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/rob/Workspace/social-coding/bass-tabs",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules"
-	],
 	"file_history":
 	[
-		"/Users/rob/Workspace/social-coding/bass-tabs/bass-tabs.sublime-project",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/index.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/site-foot.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_plugins/helpers.rb",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_modules.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_layout.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/menu.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_meta.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/addons/_inline-retina-image.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_layouts/default.html",
+		"/Users/rob/Workspace/social-coding/os-bass-tabs/bower.json",
+		"/Users/rob/Workspace/social-coding/os-bass-tabs/Gruntfile.js",
 		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_grid-settings.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/site-head.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_plugins/helpers.rb",
 		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-19-thievery-corporation_holographic-universe.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_postlist.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/Gruntfile.js",
-		"/Users/rob/Workspace/social-coding/bass-tabs/package.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/index.html",
 		"/Users/rob/Workspace/social-coding/bass-tabs/bower.json",
 		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_base.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_dismantling-frank.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/.git/COMMIT_EDITMSG",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_all-that-we-perceive.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_amerimacka.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_culture-of-fear.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_lebanese-blonde.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_warning-shots.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-the-glitch-mob_animus-vox.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_the-shark.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_animals.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_cirrus.md",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_post.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules/menu.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/package.json",
 		"/Users/rob/Workspace/social-coding/bass-tabs/app/_layouts/post.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_variables.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/resources.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_resources.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/related_posts.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/contributing.html",
-		"/Users/rob/Workspace/social-coding/bass-tabs/config.json",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_nav.scss",
-		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/application.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/Gruntfile.js",
 		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/app.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/data/search.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/config.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.jshintrc",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.editorconfig",
+		"/Users/rob/Desktop/Take Note Logo Ideas/Take Note notes",
+		"/Users/rob/Desktop/Take Note Logo Ideas/email.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-20-wild-belle_keep-you.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_the-shark.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-the-glitch-mob_animus-vox.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/Gemfile.lock",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.git/COMMIT_EDITMSG",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/contributing.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_modules.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_meta.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/menu.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_layout.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_templates/_post.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_warning-shots.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_lebanese-blonde.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_culture-of-fear.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_amerimacka.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-thievery-corporation_all-that-we-perceive.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_animals.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_dismantling-frank.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_postlist.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_layouts/default.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/README.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/_config.build.yml",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_post.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/related_posts.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/resources.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_button.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/about.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/application.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_resources.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_includes/site-foot.html",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_variables.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/_config.yml",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules/search-field.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/addons/_inline-retina-image.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.git/rebase-merge/git-rebase-todo",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/modules/_nav.scss",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules/menu.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/scripts/modules/thumbnails.js",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_templates/thumbnail.hbs",
+		"/Users/rob/Workspace/social-coding/bass-tabs/bass-tabs.sublime-project",
+		"/Users/rob/Workspace/social-coding/bass-tabs/search.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-14-bonobo_cirrus.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/search.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/.jekyll/search.json",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/_posts/2015-01-22-the-doors_break-on-through--the-other-side-.md",
+		"/Users/rob/Workspace/social-coding/bass-tabs/app/styles/_fonts.scss",
 		"/Users/rob/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/jekyll-multiple-languages-plugin-1.2.7/example/_plugins/jekyll-multiple-languages-plugin.rb",
 		"/Users/rob/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/jekyll-multiple-languages-plugin-1.2.7/example/_config.yml",
 		"/Users/rob/Workspace/handcrafteddigital/static-site/app/_plugins/ext.rb",
@@ -706,32 +708,7 @@
 		"/Users/rob/Workspace/handcrafteddigital/static-site/app/_includes/header-nav.html",
 		"/Users/rob/Workspace/handcrafteddigital/static-site/app/dk/index.html",
 		"/Users/rob/Workspace/handcrafteddigital/static-site/app/_includes/foot.html",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.gitignore",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/package.json",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/bower_components/jquery/src/css/addGetHookIf.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.jekyll/styles/application.scss",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.editorconfig",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/apache-server-configs/dist/.htaccess",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/dist/index.html",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.sass-cache/a15ad2dad7818a60356b50941bc66c67e4970ef9/_hide-text.scssc",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.sass-cache/68cbb2d2fd302b98ca47ba6592a55ee1591ac84e/_deprecated-webkit-gradient.scssc",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt/node_modules/colors/themes/winston-dark.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/bower_components/jquery/src/data.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/.sass-cache/e8ac7399dcbd5a4c8c97893561aee13751f29773/_font-face.scssc",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt-contrib-htmlmin/tasks/htmlmin.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/secret.json",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv-child.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt-newer/gruntfile.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/app/en_index.html",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/self-closing-tag.js",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/app/dk_index.html",
-		"/Users/rob/Workspace/handcrafteddigital/static-site/node_modules/grunt-contrib-htmlmin/node_modules/html-minifier/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/styles/modules/_menu.scss",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/styles/_modules.scss",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/modules/composition.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/scripts/app.js",
-		"/Users/rob/Workspace/robertpataki.com/robertpataki.com/app/index.html"
+		"/Users/rob/Workspace/handcrafteddigital/static-site/.gitignore"
 	],
 	"find":
 	{
@@ -742,6 +719,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"*.*",
 			"*.scss",
 			"*.js",
 			"*.scss",
@@ -868,8 +846,7 @@
 			"*.js",
 			"",
 			"*.js",
-			"",
-			"*.scss"
+			""
 		]
 	},
 	"find_state":
@@ -877,6 +854,45 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"livereload:",
+			"watch:",
+			"livereload:",
+			"livereload",
+			"jekyll",
+			"robert@",
+			"robert@robertpataki.com",
+			"search",
+			"content",
+			"branding_",
+			"copy:",
+			"replace",
+			"jekyll",
+			"search",
+			"this.support",
+			"this.reload",
+			"this.supportsTouch",
+			"supportsTouch",
+			"_support",
+			"supportsTouch",
+			"_supportsTouch()",
+			"hover",
+			"l-block-page",
+			"l-block-content",
+			"TweenMAx",
+			"handlebars",
+			"_resizeThumbnails",
+			"display",
+			"data",
+			"title",
+			"l-block-tab",
+			"js:",
+			".json",
+			"data.json",
+			"usemin",
+			"resources",
+			"images/",
+			"resources/",
+			"rev",
 			"_this.thumbnails",
 			"2",
 			"post",
@@ -965,46 +981,7 @@
 			"_this.shouldUpdateCrop",
 			"_drawCroppedMaskCompositeOnMainContext",
 			"_drawCroppedMaskCompositeContext",
-			"drawCropped",
-			"drawMash",
-			"_drawCroppedMaskCompositeOnMainContext",
-			"_drawBackgroundOnMainContext",
-			"_drawBackground",
-			"_swapBackgrounds",
-			"_drawMashOnMainContext",
-			"_drawBackgroundOnMainContext",
-			"_drawCroppedMaskCompositeOnMainContext",
-			"_drawCroppedMaskCompositeContext",
-			"_drawCroppedMaskCompositeOnMainContext",
-			"_drawBackgroundOnMainContext",
-			"clip",
-			"resize",
-			"drawBackgroundOnMain",
-			"drawBackground",
-			"drawBackgroundOnMain",
-			"drawBackground",
-			"logoTopX",
-			"drawCropped",
-			"resize",
-			"drawBackgroundOn",
-			"_drawMash",
-			"_drawMashOnMainContext",
-			"drawMash",
-			"global",
-			"_drawBackgroundOnMainContext",
-			"draw",
-			"_this.logoHeight",
-			"_this.logoWidth",
-			"croppedHeight",
-			"croppedWidth",
-			"_drawCroppedMaskCompositeOnMainContext",
-			"drawCropped",
-			"addCropped",
-			"render(",
-			"logoTopX + centerPointX + gap * 0.5",
-			"logoTopX + centerPointX - gap * 0.5",
-			"draw",
-			"addInteraction"
+			"drawCropped"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1035,99 +1012,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/scripts/modules/search-field.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 435.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/scripts/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2006,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1264,
-								1278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1191.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/modules/thumbnails.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1543,
-								1543
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1297.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1178,12 +1064,272 @@
 		"selected_items":
 		[
 			[
+				"gruntfil",
+				"Gruntfile.js"
+			],
+			[
+				"head.html",
+				"app/_includes/site-head.html"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"bower.json",
+				"bower.json"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				".json",
+				"app/data/search.json"
+			],
+			[
+				".js",
+				"app/scripts/app.js"
+			],
+			[
+				"glitch",
+				"app/_posts/2015-01-14-the-glitch-mob_animus-vox.md"
+			],
+			[
+				"kee",
+				"app/_posts/2015-01-20-wild-belle_keep-you.md"
+			],
+			[
+				"contribut",
+				"app/contributing.html"
+			],
+			[
+				"modules",
+				"app/styles/_modules.scss"
+			],
+			[
+				"layout",
+				"app/styles/_layout.scss"
+			],
+			[
+				"meta.scss",
+				"app/styles/modules/_meta.scss"
+			],
+			[
+				"post.html",
+				"app/_layouts/post.html"
+			],
+			[
+				"post.md",
+				"app/_templates/_post.md"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"default",
+				"app/_layouts/default.html"
+			],
+			[
+				"contri",
+				"app/contributing.html"
+			],
+			[
+				"base",
+				"app/styles/_base.scss"
+			],
+			[
+				"postlist",
+				"app/styles/modules/_postlist.scss"
+			],
+			[
+				"post.scss",
+				"app/styles/modules/_post.scss"
+			],
+			[
+				"related",
+				"app/_includes/related_posts.html"
+			],
+			[
+				"about",
+				"app/about.html"
+			],
+			[
+				"menu",
+				"app/_includes/menu.html"
+			],
+			[
+				"application.",
+				"app/styles/application.scss"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"resource",
+				"app/resources.html"
+			],
+			[
+				"resources",
+				"app/styles/modules/_resources.scss"
+			],
+			[
+				"variables",
+				"app/styles/_variables.scss"
+			],
+			[
+				"post",
+				"app/_layouts/post.html"
+			],
+			[
+				"posts.html",
+				"app/_includes/related_posts.html"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"config.build.",
+				"_config.build.yml"
+			],
+			[
+				"config.yml",
+				"_config.yml"
+			],
+			[
+				"search.json",
+				"app/data/search.json"
+			],
+			[
+				"foot.hmtl",
+				"app/_includes/site-foot.html"
+			],
+			[
+				"meta",
+				"app/styles/modules/_meta.scss"
+			],
+			[
+				"searchfield",
+				"app/scripts/modules/search-field.js"
+			],
+			[
+				"config.",
+				"_config.build.yml"
+			],
+			[
 				"thumbnails",
 				"app/scripts/modules/thumbnails.js"
 			],
 			[
+				"app.js",
+				"app/scripts/app.js"
+			],
+			[
+				"search",
+				"app/scripts/modules/search-field.js"
+			],
+			[
+				"base.scss",
+				"app/styles/_base.scss"
+			],
+			[
+				"postlist.scss",
+				"app/styles/modules/_postlist.scss"
+			],
+			[
+				"contrib",
+				"app/contributing.html"
+			],
+			[
+				"",
+				"app/about.html"
+			],
+			[
+				"thumbnails.js",
+				"app/scripts/modules/thumbnails.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"package.j",
+				"package.json"
+			],
+			[
+				"resour",
+				"app/resources.html"
+			],
+			[
+				"contribu",
+				"app/contributing.html"
+			],
+			[
+				"about.html",
+				"app/about.html"
+			],
+			[
+				"resources.html",
+				"app/resources.html"
+			],
+			[
+				"search.js",
+				"app/scripts/modules/search-field.js"
+			],
+			[
+				"posts.csss",
+				"app/styles/modules/_postlist.scss"
+			],
+			[
 				"menu.html",
 				"app/_includes/menu.html"
+			],
+			[
+				"resources.",
+				"app/resources.html"
+			],
+			[
+				"index.",
+				"app/index.html"
+			],
+			[
+				"thumbnailsj",
+				"app/scripts/modules/thumbnails.js"
+			],
+			[
+				"grid-sett",
+				"app/styles/_grid-settings.scss"
+			],
+			[
+				"nav.scss",
+				"app/styles/modules/_nav.scss"
+			],
+			[
+				"thum",
+				"app/scripts/modules/thumbnails.js"
+			],
+			[
+				"gruntile",
+				"Gruntfile.js"
+			],
+			[
+				"foot.html",
+				"app/_includes/site-foot.html"
+			],
+			[
+				"foot.tml",
+				"app/_includes/site-foot.html"
+			],
+			[
+				"wild",
+				"app/_posts/2015-01-20-wild-belle_keep-you.md"
 			],
 			[
 				"site-foot",
@@ -1198,60 +1344,12 @@
 				"app/_plugins/helpers.rb"
 			],
 			[
-				"app.js",
-				"app/scripts/app.js"
-			],
-			[
-				"layout",
-				"app/styles/_layout.scss"
-			],
-			[
-				"postlist",
-				"app/styles/modules/_postlist.scss"
-			],
-			[
-				"modules",
-				"app/styles/_modules.scss"
-			],
-			[
-				"index",
-				"app/index.html"
-			],
-			[
-				"gruntfile",
-				"Gruntfile.js"
-			],
-			[
-				"package",
-				"package.json"
-			],
-			[
-				"bower",
-				"bower.json"
-			],
-			[
 				"holo",
 				"app/_posts/2015-01-19-thievery-corporation_holographic-universe.md"
 			],
 			[
-				"post.scss",
-				"app/styles/modules/_post.scss"
-			],
-			[
-				"meta",
-				"app/styles/modules/_meta.scss"
-			],
-			[
 				"grid-settings",
 				"app/styles/_grid-settings.scss"
-			],
-			[
-				"meta.scss",
-				"app/styles/modules/_meta.scss"
-			],
-			[
-				"post.html",
-				"app/_layouts/post.html"
 			],
 			[
 				"holographic",
@@ -1262,36 +1360,12 @@
 				"app/_posts/2015-01-14-bonobo_dismantling-frank.md"
 			],
 			[
-				"related",
-				"app/_includes/related_posts.html"
-			],
-			[
 				"layoutscss",
 				"app/styles/_layout.scss"
 			],
 			[
-				"resource",
-				"app/resources.html"
-			],
-			[
-				"resources",
-				"app/styles/modules/_resources.scss"
-			],
-			[
-				"base",
-				"app/styles/_base.scss"
-			],
-			[
-				"variables",
-				"app/styles/_variables.scss"
-			],
-			[
 				"menu.js",
 				"app/scripts/modules/menu.js"
-			],
-			[
-				"nav.scss",
-				"app/styles/modules/_nav.scss"
 			],
 			[
 				"application",
@@ -1302,10 +1376,6 @@
 				"Gemfile"
 			],
 			[
-				"head.html",
-				"app/_includes/head.html"
-			],
-			[
 				"menu.scss",
 				"app/styles/modules/_menu.scss"
 			],
@@ -1314,20 +1384,8 @@
 				"app/.htaccess"
 			],
 			[
-				"menu",
-				"app/_includes/lang-menu.html"
-			],
-			[
-				"default",
-				"app/_layouts/default.html"
-			],
-			[
 				"header.",
 				"app/_includes/header.html"
-			],
-			[
-				"package.json",
-				"package.json"
 			],
 			[
 				"package.",
@@ -1358,10 +1416,6 @@
 				"app/_includes/lang-menu.html"
 			],
 			[
-				"base.scss",
-				"app/styles/_base.scss"
-			],
-			[
 				"langmenu",
 				"app/_includes/lang-menu.html"
 			],
@@ -1372,10 +1426,6 @@
 			[
 				".htaccess",
 				"app/.htaccess"
-			],
-			[
-				"index.html",
-				"app/dk/index.html"
 			],
 			[
 				"dk/",
@@ -1438,10 +1488,6 @@
 				"app/styles/_grid-settings.scss"
 			],
 			[
-				"package.j",
-				"package.json"
-			],
-			[
 				"readme",
 				"README.md"
 			],
@@ -1456,18 +1502,6 @@
 			[
 				"read",
 				"README.md"
-			],
-			[
-				"index.",
-				"app/index.js"
-			],
-			[
-				"bower.json",
-				"app/templates/_bower.json"
-			],
-			[
-				"grunt",
-				"app/templates/Gruntfile.js"
 			],
 			[
 				"main.js",
@@ -1540,154 +1574,6 @@
 			[
 				"preloader.html",
 				"app/scripts/templates/preloader.html"
-			],
-			[
-				"heroc",
-				"app/scripts/modules/contentBlocks/heroContentBlock.js"
-			],
-			[
-				"splashscreen",
-				"app/scripts/modules/splashScreen.js"
-			],
-			[
-				"primarynav",
-				"app/scripts/modules/primaryNav.js"
-			],
-			[
-				"view",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"videoview",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"music",
-				"app/scripts/modules/contentBlocks/musicContentBlock.js"
-			],
-			[
-				"viewbox.js",
-				"app/scripts/modules/photoViewBox.js"
-			],
-			[
-				"sectionnav",
-				"app/scripts/modules/sectionNav.js"
-			],
-			[
-				"nav-",
-				"app/styles/modules/_nav-viewbox.scss"
-			],
-			[
-				"nav-video",
-				"app/styles/modules/_nav-video.scss"
-			],
-			[
-				"nav-social",
-				"app/styles/modules/_nav-social.scss"
-			],
-			[
-				"nav-section",
-				"app/styles/modules/_nav-section.scss"
-			],
-			[
-				"icon",
-				"app/styles/modules/_icon.scss"
-			],
-			[
-				"nav",
-				"app/styles/modules/_nav.scss"
-			],
-			[
-				"musiccontent",
-				"app/scripts/modules/contentBlocks/musicContentBlock.js"
-			],
-			[
-				"videocontent",
-				"app/scripts/modules/contentBlocks/videosContentBlock.js"
-			],
-			[
-				"contentblockgroup",
-				"app/scripts/modules/contentBlocks/contentBlockGroup.js"
-			],
-			[
-				"herocnt",
-				"app/scripts/modules/contentBlocks/heroContentBlock.js"
-			],
-			[
-				"nav-sec",
-				"app/styles/modules/_nav-section.scss"
-			],
-			[
-				"viewbox",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"photos",
-				"app/scripts/modules/contentBlocks/photosContentBlock.js"
-			],
-			[
-				"videoviewbox",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"contentb",
-				"app/scripts/modules/contentBlocks/contentBlockGroup.js"
-			],
-			[
-				"heroblock",
-				"app/scripts/modules/contentBlocks/heroContentBlock.js"
-			],
-			[
-				"navbar",
-				"app/styles/modules/_navbar.scss"
-			],
-			[
-				"primary",
-				"app/scripts/modules/primaryNav.js"
-			],
-			[
-				"modu",
-				"app/styles/_modules.scss"
-			],
-			[
-				"videovie",
-				"app/scripts/modules/videoViewBox.js"
-			],
-			[
-				"splash",
-				"app/scripts/modules/splashScreen.js"
-			],
-			[
-				"base.",
-				"app/styles/_base.scss"
-			],
-			[
-				"photo.js",
-				"app/scripts/modules/photo.js"
-			],
-			[
-				"viewbox.scss",
-				"app/styles/modules/_viewbox.scss"
-			],
-			[
-				"nav-primary",
-				"app/styles/modules/_nav-primary.scss"
-			],
-			[
-				"progress",
-				"app/styles/modules/_progressbar.scss"
-			],
-			[
-				"variab",
-				"app/styles/_variables.scss"
-			],
-			[
-				"content.scss",
-				"app/styles/modules/_content.scss"
-			],
-			[
-				"helper",
-				"app/scripts/helper.js"
 			]
 		],
 		"width": 0.0
@@ -1716,7 +1602,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 253.0,
+	"side_bar_width": 389.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

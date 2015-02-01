@@ -19,6 +19,32 @@
     }
   }
 
+  dl {
+    dt, dd {
+      display: inline-block;
+    }
+    dt {
+      font-weight: 700;
+      color: $colour-font-highlight;
+
+      &:after {
+        content: ": ";
+      }
+    }
+    dd {
+      margin-left: em(4);
+      margin-right: em(6);
+      
+      &:after {
+        position: relative;
+        display: inline-block;
+        content: ",";
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
   blockquote {
     padding: 0 0 0 6px;
     margin: 0;
