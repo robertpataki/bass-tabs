@@ -20,6 +20,7 @@
   }
 
   dl {
+
     dt, dd {
       display: inline-block;
     }
@@ -33,15 +34,6 @@
     }
     dd {
       margin-left: em(4);
-      margin-right: em(6);
-      
-      &:after {
-        position: relative;
-        display: inline-block;
-        content: ",";
-        left: 0;
-        top: 0;
-      }
     }
   }
 
