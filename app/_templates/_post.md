@@ -13,7 +13,7 @@ author_email: ""
 author_site:  ""
 tuning:       "GDAE"
 youtube:      ""
-tags:         
+tags:         []
 
 published:    true
 ---
