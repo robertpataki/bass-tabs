@@ -13,10 +13,10 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=17PM-UMVud8"
-tags:         
+tags:         [electronic, glitch]
 ---
 
-#### Verse (00:05-01:03)
+#### Intro (00:05-01:03)
 
 ```
 G |----------------|----------------|----------------|----------------|
@@ -25,4 +25,4 @@ A |6--66--66--66--6|4--44--44--44--4|----------------|----------------|
 E |----------------|----------------|----------------|----------------|
 ```
 
-> Play the verse 3 times at the very beginning of the song
+> Play the intro 3 times at the very beginning of the song

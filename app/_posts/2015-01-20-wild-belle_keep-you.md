@@ -13,7 +13,7 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//www.youtube.com/watch?v=2EtYBbPH-kw"
-tags:         
+tags:         [electronic, reggae, funk, soul]
 
 published:    true
 ---

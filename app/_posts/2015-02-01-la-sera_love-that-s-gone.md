@@ -13,12 +13,14 @@ author_email: "robert@robertpataki.com"
 author_site:  "http://robertpataki.com"
 tuning:       "GDAE"
 youtube:      "//youtube.com/watch?v=d9U5IL6fRXI"
-tags:         "Indie Rock"
+tags:         [rock, indie rock]
 
 published:    true
 ---
 
 #### Intro
+
+> Listen to the song to get a feel for the rhythm
 
 ```
 G |--------------------------------|
