@@ -417,7 +417,7 @@ module.exports = function (grunt) {
         content;
 
     if (name) {
-      formatedName = name.replace(/[^a-z0-9]|\s+|\r?\n|\r/gmi, '-').toLowerCase();
+      formatedName = name.replace(/[^a-z0-9()]|\s+|\r?\n|\r/gmi, '-').toLowerCase();
       formatedName = formatedName.replace('---', '_');
       artist = name.split(' - ')[0];
       song = name.split(' - ')[1];
