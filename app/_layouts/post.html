@@ -27,6 +27,17 @@ layout: default
         {% endif %}
         <p class="meta-date"><span class="meta_label">Created:</span> {{ page.date | date: '%d/%m/%Y' }}</p>
       </div>
+
+      {% if page.tags %}
+        <div class="meta-tags">
+          <span class="meta_label">Style:</span>
+          <ul class="meta_tags">
+            {% for tag in page.tags %}
+            <li class="meta_tag"><span>{{ tag }}</span></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   </div>
 
