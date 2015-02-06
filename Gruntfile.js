@@ -404,7 +404,7 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.task.registerTask('post', 'Create new jekyll posts from templates.', function() {
+  grunt.task.registerTask('create_tabs', 'Create new tabs with Jekyll using templates.', function() {
     var name = grunt.option('name'),
         category = grunt.option('cat'),
         date = new Date(),
@@ -436,7 +436,7 @@ module.exports = function (grunt) {
       grunt.file.write('app/_posts/' + today + '-' + formatedName + '.md', content);
     }
     else {
-      grunt.fail.warn('Name Required: `grunt post --name "My Post Name"`');
+      grunt.fail.warn('Name Required: `grunt create_tabs --name "Artist name - Song name"`');
     }
   });
 

@@ -39,7 +39,7 @@ The project is hosted on Github Pages, so the most up to date, stable version sh
 
 **Running the following grunt task in your command line:**
 
-	$ grunt post --name "The Doors - Break On Through (To The Other Side)
+	$ grunt create_tabs --name "The Doors - Break On Through (To The Other Side)
 	
 will generate a new static HTML page with a details already added to the page's meta data - The title of the song, the artist, and the page title of course.
 
